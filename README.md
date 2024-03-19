@@ -1,4 +1,0 @@
-requirements:
-  streamlit
-  panda
-  numpy
