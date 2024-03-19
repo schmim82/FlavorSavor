@@ -1,4 +1,0 @@
-Benötigt werden:
-streamlit
-pandas
-numpy
