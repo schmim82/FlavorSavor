@@ -42,5 +42,5 @@ Neue Problem?
 Nicht wirklich, die iplmetation ist ein weiter Code beim Zufälligen Rezept. 
 
  <br />
-Die Hypothese wurde zum Teil bestätigt.
+Die Hypothese wurde zum Teil bestätigt.   
 Der Nutzertest war daher erfolgreich und die zwei Punkte werden anschliessend im Kollegium besprochen.
