@@ -1,4 +1,8 @@
 # Nutzertest    
+Hypothese:   
+Die App ist selbst erklärend und verständlich.
+
+ <br />
 Der Nutzertest wurde mittels Bilder über das Ipad gemacht und anschliessen die Bemerkungen vermerkt.
 
  <br />
@@ -37,4 +41,6 @@ Die Anpassugen in Vegan als Kategorie und beim Zufälligen Rezept die Möglichke
 Neue Problem?   
 Nicht wirklich, die iplmetation ist ein weiter Code beim Zufälligen Rezept. 
 
+ <br />
+Die Hypothese wurde zum Teil bestätigt.
 Der Nutzertest war daher erfolgreich und die zwei Punkte werden anschliessend im Kollegium besprochen.
