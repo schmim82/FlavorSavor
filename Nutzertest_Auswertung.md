@@ -14,7 +14,7 @@ Es gab keine Anmerkugen
  <br />   
 <img src="Wireframes/Bild_Zufaelliges_Rezept.png" alt="Zufälliges Rezept" width="500"/>
 
-Beim Zufälligen Rezept war die Frage ob es Möglich ist diese diese Nach den Kategorien, Vorspeise, Hauptspeise und Nachspeiche wählen zulassen.
+Beim Zufälligen Rezept war die Frage, ob es Möglich ist diese diese Nach den Kategorien: Vorspeise, Hauptspeise und Nachspeiche, wählen zulassen.
 
 
  <br />
