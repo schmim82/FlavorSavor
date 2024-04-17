@@ -1,4 +1,4 @@
-# Nutzertest    
+# Wireframe-Nutzertest    
 Hypothese:   
 Die App ist selbst erklärend und verständlich.
 
