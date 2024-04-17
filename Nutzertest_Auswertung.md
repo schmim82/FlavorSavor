@@ -2,23 +2,23 @@
 Der Nutzertest wurde mittels Bilder über das Ipad gemacht und anschliessen die Bemerkungen vermerkt.
 
  <br />
-<img src="Wireframes/Bild_Rezept_suchen.png" alt="Rezept suchen" width="500"/> 
+<img src="Wireframes/Bild_Rezept_suchen.png" alt="Rezept suchen" width="700"/> 
 
 Die Frage kamm auf ob Vegane auch als Kategorie angegeben werden soll?
 
  <br />
-<img src="Wireframes/Bild_Meine_Favoriten.png" alt="Meine Favoriten" width="500"/>
+<img src="Wireframes/Bild_Meine_Favoriten.png" alt="Meine Favoriten" width="700"/>
 
 Es gab keine Anmerkugen
 
  <br />   
-<img src="Wireframes/Bild_Zufaelliges_Rezept.png" alt="Zufälliges Rezept" width="500"/>
+<img src="Wireframes/Bild_Zufaelliges_Rezept.png" alt="Zufälliges Rezept" width="700"/>
 
 Beim Zufälligen Rezept war die Frage, ob es Möglich ist diese diese Nach den Kategorien: Vorspeise, Hauptspeise und Nachspeiche, wählen zulassen.
 
 
  <br />
-<img src="Wireframes/Bild_Menueplaner.png" alt="Menüplaner" width="500"/>    
+<img src="Wireframes/Bild_Menueplaner.png" alt="Menüplaner" width="700"/>    
 
 Es gab keine Anmerkugen   
 
