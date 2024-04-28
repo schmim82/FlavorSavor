@@ -17,8 +17,8 @@ def csv_reader(csv):
 
 #Code ab hier
 
-
-Rezepte_dataframe = csv_reader("Rezepte_dataframe.CSV")
+dateienpfad = Flavorsavor/programm_daten/Rezepte_dataframe.CSV
+Rezepte_dataframe = csv_reader("dateinpfad")
 
 
 #App Design
