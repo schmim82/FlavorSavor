@@ -16,17 +16,34 @@
 
 #Herkunft_L = ["Japan", "Thailand", "Schweiz", "Italien"]
 
+#Alle Angaben von Zutaten in gramm angeben. wenn flüssig oder sonstige Mengenangabe Bitte schreibt beispielsweise:
+    #"Anzahl Salz prisen"
+    #"Rahm in ml"
+# Wichtig ist, das wenn die angabe nicht gramm ist, ist das der Key in der dictionary aus mehreren Wörter besteht.
 
-Kochbuch = {
+
+Nudeln_L = {"Blattspinat": 100,
+            "Rucola": 50,
+            "Knoblauch anzahl Zehen": 2,
+            "Olivenöl in ml": 100,
+            "Parmesan": 60,
+            "Mandelkerne": 25,
+            "Abgeribene Schale von Zitrone": 1,
+            "Salz prisen": 1,
+            "Zucker": 2,
+            "Spargel": 500,
+            "Bandnudeln": 400,
+            "Radieschen": 75
+            
+}
+
+Kochbuch = {"Nudeln": Nudeln_L
 
 }
 
 #Speiseliste nicht erweitern
 Speise_L = ["Vorspeise", "Hauptspeise", "Nachspeise"]
 
-Herkunft_L = []
+Herkunft_L = ["Japan"]
 
-#Alle Angaben von Zutaten in gramm angeben. wenn flüssig oder sonstige Mengenangabe Bitte schreibt beispielsweise:
-    #"Anzahl Salz prisen"
-    #"Rahm in ml"
-# Wichtig ist, das wenn die angabe nicht gramm ist, ist das der Key in der dictionary aus mehreren Wörter besteht.
+
