@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import re
-import Zutaten_daten as zd
+from programm_daten import Zutaten_daten as zd
 from funktionen import Funktions_ablage as fa
 
 
