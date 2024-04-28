@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import re
 from programm_daten import Zutaten_daten as zd
-from programm_daten import Funktions_ablage as fa
+import Funktions_ablage as fa
 import streamlit_authenticator as stauth
 
 # Funktionen, welche nach Funktions_ablage.py kopiert werden
