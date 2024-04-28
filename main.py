@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import re
-from programm_daten import Zutaten_daten as zd
-from funktionen import Funktions_ablage as fa
+import Zutaten_daten as zd
+import Funktions_ablage as fa
 
 
 # Funktionen, welche nach Funktions_ablage.py kopiert werden
