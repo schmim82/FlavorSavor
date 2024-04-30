@@ -49,3 +49,18 @@ def zutaten_ausgabe(rezept, kochbuch, anzahl):
         else:
             st.markdown(f"{variable}. {key} -- {per_vol}")        
             st.markdown("\n")
+
+
+
+#Ausgabe von Herkunft_L:
+
+def herkunft_gen(df):
+
+    bekannte_werte = ["Rezepte", "Vorspeise", "Hauptspeise", "Nachspeise", "Vegetarisch"]
+    herkunft_L = []
+
+    for spalte in df.columns:
+        if spalte not in bekannte_werte:
+            herkunft_L.append(spalte)
+
+    return herkunft_L
