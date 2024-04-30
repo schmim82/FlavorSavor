@@ -44,6 +44,6 @@ Kochbuch = {"Nudeln": Nudeln_L
 #Speiseliste nicht erweitern
 Speise_L = ["Vorspeise", "Hauptspeise", "Nachspeise"]
 
-Herkunft_L = ["Japan"]
+
 
 
