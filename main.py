@@ -26,10 +26,13 @@ st.set_page_config(page_title="FlavorSavor")
 st.sidebar.title("Flavorsavor")
 st.sidebar.subheader("Entdecke die Welt der Kulinarik")
 
+#Kriterien generieren
+
+herkunft_L = fa.herkunft_gen(Rezepte_dataframe)
 
 #Kriterien Angabe
 choose_course = st.sidebar.radio("Wähle die gewünschte Mahlzeit aus", zd.Speise_L)
-choose_herkunft = st.sidebar.selectbox("Wähle die Herkunft des Gerichts aus", zd.Herkunft_L)
+choose_herkunft = st.sidebar.selectbox("Wähle die Herkunft des Gerichts aus", herkunft_L)
 vegetarian = st.sidebar.checkbox("Vegetarisch")
 
 
