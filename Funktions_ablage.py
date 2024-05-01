@@ -37,18 +37,29 @@ def zutaten_ausgabe(rezept, kochbuch, anzahl):
     variable = 0
 
     for key in dictionary:
-        variable += 1
-        words = key.split()
+        variable += 1     
 
-        per_vol = (dictionary[key]/4)*anzahl
+        if key == "Zubereitung":
 
-        if len(words) == 1:
-            st.markdown(f"{variable}. {key} -- {per_vol} gramm")        
-            st.markdown("\n")
+            Zubereitung_text = dictionary[key]
 
         else:
-            st.markdown(f"{variable}. {key} -- {per_vol}")        
-            st.markdown("\n")
+
+            words = key.split()
+
+            per_vol = (dictionary[key]/4)*anzahl
+            Zubereitung_text=[]
+
+            if len(words) == 1:
+                st.markdown(f"{variable}. {key} -- {per_vol} gramm")        
+                st.markdown("\n")
+
+            else:
+                st.markdown(f"{variable}. {key} -- {per_vol}")        
+                st.markdown("\n")
+
+    
+    st.markdown(Zubereitung_text)
 
 
 
