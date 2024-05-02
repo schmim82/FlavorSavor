@@ -590,7 +590,7 @@ Kochbuch = {"Nudeln": Nudeln_L,
             "Banana Roti": Banana_Roti_L,
             "Spaghetti Carbonara": Spaghetti_L,
             "Tortilla-Flammkuchen": Tortilla_L,
-            "Älplermagronen": Älplermagronen_L,
+            "Älplermagronen": Aelplermagronen_L,
             "Flammkuchen": Flammkuchen_L,
             "Gefüllte Zucchini mit Hackfleisch": Gefüllte_Zucchini_L,
             "Gyoza mit Pilzfüllung": Gyoza_L
