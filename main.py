@@ -19,7 +19,7 @@ def csv_reader(csv):
 #Code ab hier
 
 
-Rezepte_dataframe = csv_reader("Rezepte_daten.CSV")
+Rezepte_dataframe = csv_reader("Rezepte_dataframe.CSV")
 
 
 #App Design
