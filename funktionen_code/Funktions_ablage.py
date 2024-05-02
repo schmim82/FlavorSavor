@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import re
-import Zutaten_daten as zd
+from daten_code import Zutaten_daten as zd
 
 def csv_reader(csv):
     return pd.read_csv(csv, sep= ";")
