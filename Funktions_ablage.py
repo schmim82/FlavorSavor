@@ -74,7 +74,7 @@ def zutaten_ausgabe(rezept, kochbuch, anzahl):
 
     for values in Zubereitung_text:
         
-        st.markdown(values)
+        st.markdown(f"{variable}. {values}")
 
 
 
