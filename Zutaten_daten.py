@@ -486,7 +486,7 @@ Tortilla_L = {"Vollkorn-Tortillas in Stück": 6,
 
 
 
-Älplermagronen_L = {"festkochende Kartoffeln": 600,
+Aelplermagronen_L = {"festkochende Kartoffeln": 600,
                 "Frischkäse oder Crème fraîche": 150,
                 "Speckwürfeli": 160,
                 "Eier in Stück": 3,
