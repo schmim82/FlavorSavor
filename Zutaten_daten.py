@@ -522,7 +522,7 @@ Flammkuchen_L = {"Mehl": 220,
                 "Zubereitung 7": "Frischkäse darüberstreuen, garnieren."
 }
 
-Gefüllte_Zucchini_L = {"Rindshackfleisch": 500,
+Gefuellte_Zucchini_L = {"Rindshackfleisch": 500,
                 "Ei verquirlt": 1,
                 "gelbe Peperoniwürfel in Stück": 1/2,
                 "Knoblauchzehe in Stück": 1,
@@ -592,7 +592,7 @@ Kochbuch = {"Nudeln": Nudeln_L,
             "Tortilla-Flammkuchen": Tortilla_L,
             "Älplermagronen": Aelplermagronen_L,
             "Flammkuchen": Flammkuchen_L,
-            "Gefüllte Zucchini mit Hackfleisch": Gefüllte_Zucchini_L,
+            "Gefüllte Zucchini mit Hackfleisch": Gefuellte_Zucchini_L,
             "Gyoza mit Pilzfüllung": Gyoza_L
 
 }
