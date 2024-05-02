@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import re
 from daten_code import Zutaten_daten as zd
-import Funktions_ablage as fa
+from funktionen_code import Funktions_ablage as fa
 
 
 # Funktionen, welche nach Funktions_ablage.py kopiert werden
