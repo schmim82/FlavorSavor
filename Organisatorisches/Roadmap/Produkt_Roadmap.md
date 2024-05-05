@@ -16,7 +16,7 @@
 - Funktion für Registration
 - Funktion für Anmelden
 
-###Menus / Rezepte:
+### Menus / Rezepte:
 - Die Rezepteauswahl wird wöchentlich erweitert
 
 
