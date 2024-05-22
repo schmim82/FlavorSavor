@@ -1,3 +1,8 @@
+
+from daten_code import Zutaten_daten as zd
+from funktionen_code import Funktions_ablage as fa
+from Seiten import Seite_1 as s_1
+
 def seite_1():
     def csv_reader(csv):
         return pd.read_csv(csv, sep= ";")
