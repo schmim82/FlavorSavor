@@ -20,8 +20,12 @@ def seite_1():
 
 
 #Code ab hier
+
+    pfad_skribt = os.path.dirname(os.path.abspath(__file__))
+
+    file_path = os.path.join(pfad_skribt,"Flavorsavor/Rezepte_dataframe.csv")
     
-    Rezepte_dataframe = csv_reader("Rezepte_dataframe")
+    Rezepte_dataframe = csv_reader(file_path)
 
 
     #App Design
