@@ -105,7 +105,7 @@ def main():
 
     else:
         #replace the code bellow with your own code or switch to another page
-        seite_1()
+        s_1.seite_1()
         logout_button = st.button("Logout")
         if logout_button:
             st.session_state['authentication'] = False
