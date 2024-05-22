@@ -21,7 +21,7 @@ def seite_1():
 #Code ab hier
 
 
-    Rezepte_dataframe = csv_reader("Rezepte_dataframe.CSV")
+    Rezepte_dataframe = csv_reader("Rezepte_dataframe")
 
 
     #App Design
