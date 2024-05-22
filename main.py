@@ -31,7 +31,7 @@ st.sidebar.subheader("Entdecke die Welt der Kulinarik")
 
 
 
-herkunft_L = fa.herkunf_gen(Rezepte_dataframe)
+herkunft_L = fa.herkunft_gen(Rezepte_dataframe)
 
 
 #Kriterien Angabe
