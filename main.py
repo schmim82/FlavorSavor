@@ -30,9 +30,13 @@ st.sidebar.title("Flavorsavor")
 st.sidebar.subheader("Entdecke die Welt der Kulinarik")
 
 
+
+herkunft_L = fa.herkunf_gen(Rezepte_dataframe)
+
+
 #Kriterien Angabe
 choose_course = st.sidebar.radio("Wähle die gewünschte Mahlzeit aus", zd.Speise_L)
-choose_herkunft = st.sidebar.selectbox("Wähle die Herkunft des Gerichts aus", zd.Herkunft_L)
+choose_herkunft = st.sidebar.selectbox("Wähle die Herkunft des Gerichts aus", herkunft_L)
 vegetarian = st.sidebar.checkbox("Vegetarisch")
 
 
@@ -67,5 +71,4 @@ choose_recipe = st.sidebar.selectbox("Wähle das gewünschte Gericht", rezepte_l
 personenanzahl = st.sidebar.slider("Wähle die Personenanzahl aus", 1, 10, 2)
 
 fa.zutaten_ausgabe(choose_recipe, zd.Kochbuch, personenanzahl)
-
 
