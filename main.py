@@ -11,7 +11,7 @@ import streamlit_authenticator as stauth
 # Funktionen, welche nach Funktions_ablage.py kopiert werden
 def seite_1():
     def csv_reader(csv):
-        return pd.read_csv(csv)
+        return pd.read_csv(csv, sep= ";")
 
 
 
