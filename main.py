@@ -20,8 +20,7 @@ def seite_1():
 
 #Code ab hier
 
-    filepath = "/Flavorsavor/Rezepte_dataframe.csv"
-    Rezepte_dataframe = csv_reader(filepath)
+    Rezepte_dataframe = csv_reader("Rezepte_dataframe")
 
 
     #App Design
