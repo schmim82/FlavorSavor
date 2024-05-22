@@ -9,10 +9,14 @@ from funktionen_code import Funktions_ablage as fa
 import bcrypt
 import streamlit_authenticator as stauth
 
+def csv_reader(csv):
+    return pd.read_csv(csv, sep= ";")
+
+Rezepte_dataframe = csv_reader("Rezepte_dataframe")
+
 # Funktionen, welche nach Funktions_ablage.py kopiert werden
 def seite_1():
-    def csv_reader(csv):
-        return pd.read_csv(csv, sep= ";")
+
 
 
 
@@ -21,11 +25,9 @@ def seite_1():
 
 #Code ab hier
 
-    pfad_skribt = os.path.dirname(os.path.abspath(__file__))
 
-    file_path = os.path.join(pfad_skribt,"Flavorsavor/Rezepte_dataframe.csv")
     
-    Rezepte_dataframe = csv_reader(file_path)
+    
 
 
     #App Design
