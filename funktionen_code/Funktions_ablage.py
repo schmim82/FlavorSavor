@@ -92,37 +92,75 @@ def herkunft_gen(df):
 
     return herkunft_L
 
+
+
+#einkaufsliste
+
 def get_current_username():
     """Funktion zum Abrufen des aktuellen Benutzernamens."""
     return st.session_state.get('username', None)
 
 
 
+def init_github_rez():
+    """Initialisiere das GithubContents-Objekt."""
+    if 'github' not in st.session_state:
+        st.session_state.github = GithubContents(
+            st.secrets["github"]["owner"],
+            st.secrets["github"]["repo"],
+            st.secrets["github"]["token"])
+        print("GitHub initialisiert")
 
-def rezepte_hinzufügen(name, rezept, personenanzahl):
+def init_rez():
+    """Initialisiere oder lade das DataFrame."""
+    if 'df_liste' not in st.session_state:
+        if st.session_state.github.file_exists(DATA_FILE):
+            st.session_state.df_liste = st.session_state.github.read_df(DATA_FILE)
+        else:
+            st.session_state.df_liste = pd.DataFrame(columns=DATA_COLUMNS)
+   
 
-# Lese die vorhandene CSV-Datei, falls vorhanden
-    try:
-        df = pd.read_csv("personen.csv")
-    except FileNotFoundError:
-    # Wenn die Datei nicht gefunden wird, erstelle ein leeres DataFrame
-        df = pd.DataFrame(columns=['Name', 'Rezept',"personenanzahl"])
+def save_to_csv_rez(dataframe):
+    """Speichere das DataFrame in einer CSV-Datei."""
+    st.session_state.github.write_df(DATA_FILE, dataframe, "updated CSV")
+
+def daten_hochladen(new_data_df):
+    init_github_rez() # Initialisiere das GithubContents-Objekt
+    init_rez() # Lade die informationen aus dem GitHub-Datenrepository
+
+# DataFrame aktualisieren
+    st.session_state.df_liste = pd.concat([st.session_state.df_liste, new_data_df], ignore_index=True)
+
+# DataFrame in CSV-Datei speichern
+    save_to_csv_rez(st.session_state.df_liste)
 
 
-    df_kriterien = df[df["Name"] == name]
+def show_dataframe():
+    dataframe = st.session_state.df_liste
+    dataframe_eink_liste = dataframe.iloc[:, 3:]
+    return dataframe_eink_liste
 
-    if  rezept in df_kriterien["Rezept"]. values:
-        print("Schon vorhanden")
+
+
+
+
+
+
+
+
+def rezepte_hinzufügen(name, rezept, anzahl):
+
+    df = show_dataframe()
+    df_kriterien = df[df["name"] == name]
+
+    if rezept in df_kriterien["Rezept].values:
+        st.markdown("schon vorhanden")
 
     else:
+        new_data = {'name': [name], 'rezept': [rezept], 'anzahl': [anzahl]}
+        new_data_df = pd.DataFrame(new_data)
 
-# Neuen Benutzer hinzufügen
-        new_user = pd.DataFrame([[name, rezept, personenanzahl]], columns=['Name', 'Rezept', "personenanzahl"])
-        df = pd.concat([df, new_user], ignore_index=True)
-
-# Speichere das aktualisierte DataFrame in die CSV-Datei
-        file_name = 'personen.csv'
-        df.to_csv(file_name, index=False)
+        daten_hochladen(new_data_df)
 
 
 
