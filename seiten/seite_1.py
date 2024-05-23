@@ -68,7 +68,7 @@ def seite_1():
 
         fa.rezepte_hinzufügen(user_name, choose_recipe, personenanzahl)
 
-    random_button = st.button.sidebar("Random Rezept")
+    random_button = st.sidebar.button("Random Rezept")
     if random_button:
         random_rezept = fa.random_rez(Rezepte_dataframe)
 
