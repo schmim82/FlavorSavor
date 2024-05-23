@@ -4,7 +4,7 @@ import re
 from daten_code import Zutaten_daten as zd
 
 DATA_FILE = "test.csv"
-DATA_COLUMNS = ['Name', 'Rezept', 'Anzahl']
+DATA_COLUMNS = ['name', 'rezept', 'anzahl']
 
 
 
