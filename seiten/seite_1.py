@@ -69,26 +69,6 @@ def seite_1():
         fa.rezepte_hinzufügen(user_name, choose_recipe, personenanzahl)
 
 
-    import streamlit as st
 
-# Füge HTML und CSS hinzu, um den Button in der oberen rechten Ecke zu positionieren
-st.markdown("""
-    <style>
-        .button-container {
-            position: fixed;
-            top: 10px;
-            right: 10px;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
-# Erstelle einen Container für den Button
-button_container = st.container()
-
-# Füge den Button zum Container hinzu
-with button_container:
-    st.button("Random Rezept")
-
-# Füge Platzhalterinhalt hinzu, um den Abstand für den Button zu schaffen
 
 
