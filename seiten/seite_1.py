@@ -54,9 +54,10 @@ def seite_1():
 
     fa.zutaten_ausgabe(choose_recipe, zd.Kochbuch, personenanzahl)
 
+    fa.init_rez()
 
     Liste_button = st.sidebar.button("Zur Liste hinzufügen")
-
+    
     if Liste_button:
 
         user_name = fa.get_current_username()
