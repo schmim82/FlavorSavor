@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import re
 from daten_code import Zutaten_daten as zd
+import random
 
 DATA_FILE = "test.csv"
 DATA_COLUMNS = ['name', 'rezept', 'anzahl']
@@ -207,3 +208,15 @@ def einkaufsliste_erstellen(einkaufsliste, Kochbuch):
 
     for key in leere_dic:
         st.markdown(f"{key} -- {leere_dic[key]}")
+
+
+
+
+#random rezept ausgabe
+
+def random_rez(df):
+    rez_liste = df["Rezepte"].tolist()
+    zufalls_rezept = random.choice(rez_liste)
+    return zufalls_rezept
+
+
