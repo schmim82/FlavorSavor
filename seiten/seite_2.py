@@ -33,8 +33,8 @@ def seite_2():
     df_persönlich = df[df["name"] == username]
 
     pers_L = df_persönlich["rezept"].tolist()
-    liste_anzahl = df_persönlich["anzahl"].tolist()
-    pers_L_anz = [int(x) for x in liste_anzahl]
+    pers_L_anz = df_persönlich["anzahl"].tolist()
+
      
 
     
