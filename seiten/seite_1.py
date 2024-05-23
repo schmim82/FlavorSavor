@@ -60,6 +60,10 @@ def seite_1():
     fa.zutaten_ausgabe(rezept_auswahl, zd.Kochbuch, personenanzahl)
 
 
+    random_stopp = st.sidebar.button("stopp random")
+    if random_stopp:
+        if "random_rezept" in st.session_state:
+            del st.session_state["random_rezept"]
 
     
     DATA_FILE = "test.csv"
@@ -79,10 +83,6 @@ def seite_1():
 
     #random stopp
 
-    random_stopp = st.sidebar.button("stopp random")
-    if random_stopp:
-        if "random_rezept" in st.session_state:
-            del st.session_state["random_rezept"]
 
 
 
