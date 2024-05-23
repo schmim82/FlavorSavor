@@ -59,8 +59,8 @@ def seite_1():
 
         fa.zutaten_ausgabe(random_rezept, zd.Kochbuch, personenanzahl)
 
-    
-    fa.zutaten_ausgabe(choose_recipe, zd.Kochbuch, personenanzahl)
+    else:
+        fa.zutaten_ausgabe(choose_recipe, zd.Kochbuch, personenanzahl)
 
     DATA_FILE = "test.csv"
     DATA_COLUMNS = ['Name', 'Rezept', 'Anzahl']
