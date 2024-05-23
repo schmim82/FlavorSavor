@@ -150,6 +150,7 @@ def show_dataframe():
 
 def rezepte_hinzufügen(name, rezept, anzahl):
 
+    
     df = show_dataframe()
     df_kriterien = df[df["name"] == name]
 
