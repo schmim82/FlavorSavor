@@ -172,14 +172,7 @@ def rezepte_hinzufügen(name, rezept, anzahl):
 
 
 
-def einkauf_df():
-    csv_path = "C:\\Users\\schmi\\OneDrive\\Studium\\Biomedizinische Labordiagnostik\\Module\\Semester 2\\Informatik 2\\Flavorsavor\\aktuell\\personen.csv"
 
-
-# Lese die CSV-Datei in ein DataFrame ein
-    df = pd.read_csv(csv_path)
-
-    return df
     
 
 def einkaufsliste_erstellen(einkaufsliste, Kochbuch):
