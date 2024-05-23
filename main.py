@@ -119,12 +119,12 @@ def main():
 
 
         #replace the code bellow with your own code or switch to another page
-        seiten = ("Seite_1", "Seite_2")
+        seiten = ("Rezept Auswahl", "Einkaufsliste")
         seitenauswahl = st.sidebar.selectbox("Wähle die Seite aus", seiten)
-        if seitenauswahl == "Seite_1":
+        if seitenauswahl == "Rezept Auswahl":
             s_1.seite_1()
 
-        elif seitenauswahl =="Seite_2":
+        elif seitenauswahl =="Einkaufsliste":
             s_2.seite_2()
 
 
@@ -137,7 +137,7 @@ def main():
 
 
 
-        logout_button = st.button("Logout")
+        logout_button = st.sidebar.button("Logout")
         if logout_button:
             st.session_state['authentication'] = False
             st.rerun()
