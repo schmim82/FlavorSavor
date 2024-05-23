@@ -3,6 +3,12 @@ import pandas as pd
 import re
 from daten_code import Zutaten_daten as zd
 
+DATA_FILE = "test.csv"
+DATA_COLUMNS = ['Name', 'Rezept', 'Anzahl']
+
+
+
+
 def csv_reader(csv):
     return pd.read_csv(csv, sep= ";")
 
