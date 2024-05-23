@@ -35,15 +35,6 @@ def seite_1():
         st.title("Leider ist kein Gericht mit diesen Kriterien Hinterlegt")
 
 
-    #Habe noch den fehler, das der Error trotzdem angezeigt wird
-
-
-
-
-
-
-        
-
 
 
 
@@ -52,9 +43,9 @@ def seite_1():
     choose_recipe = st.sidebar.selectbox("Wähle das gewünschte Gericht", rezepte_liste)
     personenanzahl = st.sidebar.slider("Wähle die Personenanzahl aus", 1, 10, 2)
 
-
-    random_button = st.sidebar.button("Random Rezept")
-    if random_button:
+#random
+    random_checkbox = st.sidebar.checkbox("Random Rezept")
+    if random_checkbox:
         random_rezept = fa.random_rez(Rezepte_dataframe)
 
         fa.zutaten_ausgabe(random_rezept, zd.Kochbuch, personenanzahl)
@@ -62,6 +53,11 @@ def seite_1():
     else:
         fa.zutaten_ausgabe(choose_recipe, zd.Kochbuch, personenanzahl)
 
+
+
+
+
+    
     DATA_FILE = "test.csv"
     DATA_COLUMNS = ['Name', 'Rezept', 'Anzahl']
     
