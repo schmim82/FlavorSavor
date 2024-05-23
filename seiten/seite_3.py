@@ -27,3 +27,20 @@ def seite_3():
         fa.zutaten_ausgabe(st.session_state.random_rezept, zd.Kochbuch, personenanzahl)
 
 
+    DATA_FILE = "test.csv"
+    DATA_COLUMNS = ['Name', 'Rezept', 'Anzahl']
+    
+    fa.init_rez()
+
+    Liste_button = st.sidebar.button("Zur Liste hinzufügen")
+    
+    if Liste_button:
+
+        user_name = fa.get_current_username()
+
+
+        fa.rezepte_hinzufügen(user_name, choose_recipe, personenanzahl)
+
+
+
+
