@@ -72,7 +72,7 @@ def seite_1():
         user_name = fa.get_current_username()
 
 
-        fa.rezepte_hinzufügen(user_name, choose_recipe, personenanzahl)
+        fa.rezepte_hinzufügen(user_name, st.session_state.random_rezept, personenanzahl)
 
 
 
