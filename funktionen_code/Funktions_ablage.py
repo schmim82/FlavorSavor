@@ -25,7 +25,7 @@ def rezepte_L_gen(course_v, herkunft_v, veg_v, df):
 
     df_kriterien = df_kriterien[df_kriterien[herkunft_v]>0]
 
-    rezepte_pn = df_kriterien["Rezepte"]
+    rezepte_pn = df_kriterien["rezepte"]
     liste = rezepte_pn.tolist()
 
     return liste
@@ -160,7 +160,7 @@ def rezepte_hinzufügen(name, rezept, anzahl):
     df = show_dataframe()
     df_kriterien = df[df["name"] == name]
 
-    if rezept in df_kriterien["Rezept"].values:
+    if rezept in df_kriterien["rezept"].values:
         st.markdown("schon vorhanden")
 
     else:
