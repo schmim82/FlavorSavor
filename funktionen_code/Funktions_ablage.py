@@ -91,3 +91,81 @@ def herkunft_gen(df):
             herkunft_L.append(spalte)
 
     return herkunft_L
+
+def get_current_username():
+    """Funktion zum Abrufen des aktuellen Benutzernamens."""
+    return st.session_state.get('username', None)
+
+
+
+
+def rezepte_hinzufügen(name, rezept, personenanzahl):
+
+# Lese die vorhandene CSV-Datei, falls vorhanden
+    try:
+        df = pd.read_csv("personen.csv")
+    except FileNotFoundError:
+    # Wenn die Datei nicht gefunden wird, erstelle ein leeres DataFrame
+        df = pd.DataFrame(columns=['Name', 'Rezept',"personenanzahl"])
+
+
+    df_kriterien = df[df["Name"] == name]
+
+    if  rezept in df_kriterien["Rezept"]. values:
+        print("Schon vorhanden")
+
+    else:
+
+# Neuen Benutzer hinzufügen
+        new_user = pd.DataFrame([[name, rezept, personenanzahl]], columns=['Name', 'Rezept', "personenanzahl"])
+        df = pd.concat([df, new_user], ignore_index=True)
+
+# Speichere das aktualisierte DataFrame in die CSV-Datei
+        file_name = 'personen.csv'
+        df.to_csv(file_name, index=False)
+
+
+
+
+def einkauf_df():
+    csv_path = "C:\\Users\\schmi\\OneDrive\\Studium\\Biomedizinische Labordiagnostik\\Module\\Semester 2\\Informatik 2\\Flavorsavor\\aktuell\\personen.csv"
+
+
+# Lese die CSV-Datei in ein DataFrame ein
+    df = pd.read_csv(csv_path)
+
+    return df
+    
+
+def einkaufsliste_erstellen(einkaufsliste, Kochbuch):
+    leere_dic = {}
+
+    
+
+    for key in einkaufsliste:
+        dictionary = Kochbuch[key]
+
+        anzahl = einkaufsliste[key]
+
+        for key in dictionary:
+
+            words = key.split()
+        
+
+            if words[0] != "Zubereitung":
+
+                if key not in leere_dic:
+
+                    if isinstance(dictionary[key], int) or isinstance(dictionary[key], float):
+                        leere_dic[key] = dictionary[key] * anzahl
+
+                    else:
+                        leere_dic[key] = dictionary[key]
+
+                else:
+
+                    if isinstance(dictionary[key], int) or isinstance(dictionary[key], float):
+                        leere_dic[key] = leere_dic[key] + (dictionary[key] * anzahl)
+
+    for key in leere_dic:
+        st.markdown(f"{key} -- {leere_dic[key]}")
