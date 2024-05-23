@@ -48,14 +48,17 @@ def seite_1():
     if random_checkbox:
         st.session_state.random_rezept = fa.random_rez(Rezepte_dataframe)
 
-        fa.zutaten_ausgabe(st.session_state.random_rezept, zd.Kochbuch, personenanzahl)
+        
 
     else:
         if "random_rezept" not in st.session_state:
             st.session_state.random_rezept = choose_recipe
-        fa.zutaten_ausgabe(st.session_state.random_rezept, zd.Kochbuch, personenanzahl)
-
-
+        
+    rezept_auswahl = st.session_state.random_rezept
+    if "random_rezept" in st.session_state:
+        del st.session_state["random_rezept"]
+        
+    fa.zutaten_ausgabe(rezept_auswahl, zd.Kochbuch, personenanzahl)
 
 
 
@@ -72,7 +75,7 @@ def seite_1():
         user_name = fa.get_current_username()
 
 
-        fa.rezepte_hinzufügen(user_name, st.session_state.random_rezept, personenanzahl)
+        fa.rezepte_hinzufügen(user_name, rezept_auswahl, personenanzahl)
 
 
 
