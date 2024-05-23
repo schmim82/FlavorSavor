@@ -128,7 +128,7 @@ def main():
         elif seitenauswahl =="Einkaufsliste":
             s_2.seite_2()
 
-        elif seitenauswahl == "Random Rezept"
+        elif seitenauswahl == "Random Rezept":
             s_3.seite_3()
 
 
