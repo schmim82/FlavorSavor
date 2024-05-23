@@ -54,6 +54,9 @@ def seite_1():
 
     fa.zutaten_ausgabe(choose_recipe, zd.Kochbuch, personenanzahl)
 
+    DATA_FILE = "test.csv"
+    DATA_COLUMNS = ['Name', 'Rezept', 'Anzahl']
+    
     fa.init_rez()
 
     Liste_button = st.sidebar.button("Zur Liste hinzufügen")
