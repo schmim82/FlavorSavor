@@ -25,7 +25,7 @@ def rezepte_L_gen(course_v, herkunft_v, veg_v, df):
 
     df_kriterien = df_kriterien[df_kriterien[herkunft_v]>0]
 
-    rezepte_pn = df_kriterien["rezepte"]
+    rezepte_pn = df_kriterien["Rezepte"]
     liste = rezepte_pn.tolist()
 
     return liste
