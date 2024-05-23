@@ -44,7 +44,7 @@ def seite_1():
     personenanzahl = st.sidebar.slider("Wähle die Personenanzahl aus", 1, 10, 2)
 
 #random
-    random_checkbox = st.sidebar.checkbox("Random Rezept")
+    random_checkbox = st.sidebar.button("Random Rezept")
     if random_checkbox:
         st.session_state.random_rezept = fa.random_rez(Rezepte_dataframe)
 
