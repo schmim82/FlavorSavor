@@ -46,12 +46,14 @@ def seite_1():
 #random
     random_checkbox = st.sidebar.checkbox("Random Rezept")
     if random_checkbox:
-        random_rezept = fa.random_rez(Rezepte_dataframe)
+        st.session_state.random_rezept = fa.random_rez(Rezepte_dataframe)
 
-        fa.zutaten_ausgabe(random_rezept, zd.Kochbuch, personenanzahl)
+        fa.zutaten_ausgabe(st.session_state.random_rezept, zd.Kochbuch, personenanzahl)
 
     else:
-        fa.zutaten_ausgabe(choose_recipe, zd.Kochbuch, personenanzahl)
+        if "random_rezept" not in st.session_state:
+            st.session_state.random_rezept = choose_recipe
+        fa.zutaten_ausgabe(st.session_state.random_rezept, zd.Kochbuch, personenanzahl)
 
 
 
