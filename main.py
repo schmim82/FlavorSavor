@@ -9,6 +9,7 @@ from funktionen_code import Funktions_ablage as fa
 
 from seiten import seite_1 as s_1
 from seiten import seite_2 as s_2
+from seiten import seite_3 as s_3
 
 
 st.set_page_config(page_title="FlavorSavor")
@@ -119,13 +120,16 @@ def main():
 
 
         #replace the code bellow with your own code or switch to another page
-        seiten = ("Rezept Auswahl", "Einkaufsliste")
+        seiten = ("Rezept Auswahl", "Einkaufsliste", "Random Rezept")
         seitenauswahl = st.sidebar.selectbox("Wähle die Seite aus", seiten)
         if seitenauswahl == "Rezept Auswahl":
             s_1.seite_1()
 
         elif seitenauswahl =="Einkaufsliste":
             s_2.seite_2()
+
+        elif seitenauswahl == "Random Rezept"
+            s_3.seite_3()
 
 
 
