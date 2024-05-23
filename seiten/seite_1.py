@@ -77,6 +77,13 @@ def seite_1():
         fa.rezepte_hinzufügen(user_name, rezept_auswahl, personenanzahl)
 
 
+    #random stopp
+
+    random_stopp = st.sidebar.button("stopp random")
+    if random_stopp:
+        if "random_rezept" in st.session_state:
+            del st.session_state["random_rezept"]
+
 
 
 
