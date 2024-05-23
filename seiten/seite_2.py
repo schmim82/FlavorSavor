@@ -25,7 +25,7 @@ def seite_2():
 
 
 
-    df = fa.einkauf_df()
+    df = fa.show_dataframe()
 
 
     st.sidebar.subheader("Die Rezepte in deiner Einkaufsliste sind:")
