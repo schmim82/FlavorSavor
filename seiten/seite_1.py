@@ -9,7 +9,7 @@ def seite_1():
     def csv_reader(csv):
         return pd.read_csv(csv, sep= ";")
 
-    Rezepte_dataframe = csv_reader("Rezepte_dataframe.CSV")
+    Rezepte_dataframe = csv_reader("Rezepte_dataframe.csv")
 
 
     #App Design
