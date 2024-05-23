@@ -77,8 +77,6 @@ def seite_1():
         fa.rezepte_hinzufügen(user_name, rezept_auswahl, personenanzahl)
 
 
-    if "random_rezept" in st.session_state:
-        del st.session_state["random_rezept"]
 
 
 
