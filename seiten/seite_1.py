@@ -43,27 +43,13 @@ def seite_1():
     choose_recipe = st.sidebar.selectbox("Wähle das gewünschte Gericht", rezepte_liste)
     personenanzahl = st.sidebar.slider("Wähle die Personenanzahl aus", 1, 10, 2)
 
-#random
-    random_checkbox = st.sidebar.button("Random Rezept")
-    if random_checkbox:
-        st.session_state.random_rezept = fa.random_rez(Rezepte_dataframe)
 
+    
         
-
-    else:
-        if "random_rezept" not in st.session_state:
-            st.session_state.random_rezept = choose_recipe
-        
-    rezept_auswahl = st.session_state.random_rezept
-
-        
-    fa.zutaten_ausgabe(rezept_auswahl, zd.Kochbuch, personenanzahl)
+    fa.zutaten_ausgabe(choose_recipe, zd.Kochbuch, personenanzahl)
 
 
-    random_stopp = st.sidebar.button("stopp random")
-    if random_stopp:
-        if "random_rezept" in st.session_state:
-            del st.session_state["random_rezept"]
+
 
     
     DATA_FILE = "test.csv"
@@ -78,7 +64,7 @@ def seite_1():
         user_name = fa.get_current_username()
 
 
-        fa.rezepte_hinzufügen(user_name, rezept_auswahl, personenanzahl)
+        fa.rezepte_hinzufügen(user_name, choose_recipe, personenanzahl)
 
 
     #random stopp
