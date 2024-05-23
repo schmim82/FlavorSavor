@@ -55,8 +55,7 @@ def seite_1():
             st.session_state.random_rezept = choose_recipe
         
     rezept_auswahl = st.session_state.random_rezept
-    if "random_rezept" in st.session_state:
-        del st.session_state["random_rezept"]
+
         
     fa.zutaten_ausgabe(rezept_auswahl, zd.Kochbuch, personenanzahl)
 
@@ -78,7 +77,8 @@ def seite_1():
         fa.rezepte_hinzufügen(user_name, rezept_auswahl, personenanzahl)
 
 
-
+    if "random_rezept" in st.session_state:
+        del st.session_state["random_rezept"]
 
 
 
