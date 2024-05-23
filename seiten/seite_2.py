@@ -32,8 +32,8 @@ def seite_2():
 
     df_persönlich = df[df["name"] == username]
 
-    pers_L = df_persönlich["Rezept"].tolist()
-    pers_L_anz = df_persönlich["personenanzahl"].tolist()
+    pers_L = df_persönlich["rezept"].tolist()
+    pers_L_anz = df_persönlich["anzahl"].tolist()
 
     
     for item1, item2 in zip(pers_L, pers_L_anz):
