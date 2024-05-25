@@ -36,8 +36,7 @@ def get_image_list():
     """
     Diese Funktion gibt eine Liste von Bilddateien aus dem lokalen 'images'-Ordner zurück.
     """
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    image_dir = os.path.join(current_dir, "Funktions_ablage", 'images')
+    image_dir = os.path.join(os.path.dirname(__file__), 'images')
     return [os.path.join(image_dir, img) for img in os.listdir(image_dir) if img.endswith(('png', 'jpg', 'jpeg', 'gif'))]
 
 
