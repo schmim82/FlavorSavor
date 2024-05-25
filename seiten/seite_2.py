@@ -23,21 +23,7 @@ def seite_2():
 
     username = fa.get_current_username()
     
-
-    pers_L = df_persönlich["rezept"].tolist()
-    df_persönlich = df[df["name"] == username]
-
-
-    
-
-    rezept_zum_entfernen = st.sidebar.selectbox("Wähle Rezept zum entfernen aus", pers_L)
-    entfern_button = st.sidebar.button("entfernen")
-
-    if entfern_button:
-        fa.rezept_entfernen(username, rezept_zum_entfernen)
-
-
-        df = fa.show_dataframe()
+df = fa.show_dataframe()
 
     st.dataframe(df)
 
@@ -70,6 +56,19 @@ def seite_2():
 
     fa.einkaufsliste_erstellen(einkaufsdic, zd.Kochbuch)
 
+
+    
+
+    rezept_zum_entfernen = st.sidebar.selectbox("Wähle Rezept zum entfernen aus", pers_L)
+    entfern_button = st.sidebar.button("entfernen")
+
+    if entfern_button:
+        fa.rezept_entfernen(username, rezept_zum_entfernen)
+
+
+        df = fa.show_dataframe()
+
+   
 
 
 
