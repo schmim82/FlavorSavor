@@ -78,9 +78,9 @@ def seite_2():
             variable += 1 
 
         fa.einkaufsliste_erstellen(einkaufsdic, zd.Kochbuch)
-
+    
     else:
-                df = fa.show_dataframe()
+        df = fa.show_dataframe()
 
 
         df_persönlich = df[df["name"] == username]
