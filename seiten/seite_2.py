@@ -58,6 +58,14 @@ def seite_2():
 
 
 
+    rezept_zum_entfernen = st.sidebar.selectbox("Wähle Rezept zum entfernen aus")
+    entfern_button = st.sidebar.button("entfernen", pers_L)
+
+    if entfern_button:
+        rezept_entfernen(username, rezept_zum_entfernen)
+
+
+
 
 
 
