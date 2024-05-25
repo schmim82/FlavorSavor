@@ -183,7 +183,7 @@ def rezept_entfernen(name, rezept):
         st.session_state.df_liste.drop(df_filtered.index, inplace=True)
         # Speichere den aktualisierten DataFrame in der CSV-Datei
         save_to_csv_rez(st.session_state.df_liste)
-        st.success(f'Daten für "{name}" und "{rezept}" erfolgreich gelöscht.')
+        st.success(f' "{rezept}" wurde aus der Einkaufsliste entfernt.')
     else:
         st.warning('Die angegebenen Daten wurden nicht gefunden.')
 
