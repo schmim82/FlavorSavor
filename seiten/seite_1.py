@@ -53,7 +53,7 @@ def seite_1():
 
     
     DATA_FILE = "test.csv"
-    DATA_COLUMNS = ['Name', 'Rezept', 'Anzahl']
+    DATA_COLUMNS = ['name', 'rezept', 'anzahl']
     
     fa.init_rez()
 
