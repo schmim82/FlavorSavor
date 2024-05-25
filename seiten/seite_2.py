@@ -19,6 +19,9 @@ def seite_2():
 
     st.title("Einkaufsliste")
 
+    df = show_dataframe()
+    st.Dataframe(df)
+
     username = fa.get_current_username()
     
 
