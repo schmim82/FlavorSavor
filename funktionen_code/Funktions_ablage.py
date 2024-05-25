@@ -3,6 +3,7 @@ import pandas as pd
 import re
 from daten_code import Zutaten_daten as zd
 import random
+import os
 
 DATA_FILE = "test.csv"
 DATA_COLUMNS = ['name', 'rezept', 'anzahl']
@@ -244,13 +245,23 @@ def random_rez(df):
 
 
 #bilder anzeigen
-def bild_anzeigen(bild):
-    # Versuchen, das Bild anzuzeigen
-    try:
-        st.image(bild, use_column_width=True)
-    except FileNotFoundError:
-        st.error(f"Die Bilddatei '{bild}' wurde nicht gefunden.")
-    except Exception as e:
-        st.error(f"Fehler beim Laden des Bildes: {e}")
+def get_image_list():
+    """
+    Diese Funktion gibt eine Liste von Bilddateien aus dem lokalen 'images'-Ordner zurück.
+    """
+    image_dir = os.path.join(os.path.dirname(__file__), 'images')
+    return [os.path.join(image_dir, img) for img in os.listdir(image_dir) if img.endswith(('png', 'jpg', 'jpeg', 'gif'))]
+
+
+def bild_anzeigen(bild, bilder_liste):
+# Überprüfen, ob das Bild in der Liste enthalten ist, und dann anzeigen
+    if bild in [os.path.basename(img) for img in bilder_liste]:
+
+        st.image(os.path.join('images', bild), use_column_width=True)
+    else:
+        st.markdown("")
+
+
+
 
 
