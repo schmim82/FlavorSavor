@@ -48,7 +48,7 @@ def seite_1():
         
     fa.zutaten_ausgabe(choose_recipe, zd.Kochbuch, personenanzahl)
 
-    bilder_liste = fa.get_image_list()
+
 
 
 
