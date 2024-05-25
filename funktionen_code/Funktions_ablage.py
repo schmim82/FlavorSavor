@@ -173,13 +173,19 @@ def rezepte_hinzufügen(name, rezept, anzahl):
 
 def rezept_entfernen(name, rezept):
 
-    df = show_dataframe()
-    df_kriterien = df[df["name"] == name]
-   
+    init_rez()  # Initialisiere oder lade das DataFrame
 
-    new_data_df = df_kriterien[df["rezept"] != rezept]
+    # Filtere den DataFrame nach den Kriterien (Name und Rezept)
+    df_filtered = st.session_state.df_liste[(st.session_state.df_liste["name"] == name) & (st.session_state.df_liste["rezept"] == rezept)]
 
-    daten_hochladen(new_data_df)
+    if not df_filtered.empty:
+        # Lösche die Zeilen mit den angegebenen Kriterien
+        st.session_state.df_liste.drop(df_filtered.index, inplace=True)
+        # Speichere den aktualisierten DataFrame in der CSV-Datei
+        save_to_csv_rez(st.session_state.df_liste)
+        st.success(f'Daten für "{name}" und "{rezept}" erfolgreich gelöscht.')
+    else:
+        st.warning('Die angegebenen Daten wurden nicht gefunden.')
 
 
 
