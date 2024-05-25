@@ -30,7 +30,7 @@ def seite_2():
 
     st.sidebar.subheader("Die Rezepte in deiner Einkaufsliste sind:")
 
-    df_persönlich = df[df["Name"] == username]
+    df_persönlich = df[df["name"] == username]
 
     pers_L = df_persönlich["rezept"].tolist()
     pers_L_anz = df_persönlich["anzahl"].tolist()
