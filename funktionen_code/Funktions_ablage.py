@@ -125,10 +125,9 @@ def init_rez():
             st.session_state.df_liste = st.session_state.github.read_df(DATA_FILE)
         else:
             st.session_state.df_liste = pd.DataFrame(columns=DATA_COLUMNS)
-   
 
 def save_to_csv_rez(dataframe):
- """Speichere das DataFrame in einer CSV-Datei."""
+
     st.session_state.github.write_df(DATA_FILE, dataframe, "updated CSV")
 
 def daten_hochladen(new_data_df):
