@@ -62,7 +62,7 @@ def seite_2():
     entfern_button = st.sidebar.button("entfernen")
 
     if entfern_button:
-        rezept_entfernen(username, rezept_zum_entfernen)
+        fa.rezept_entfernen(username, rezept_zum_entfernen)
 
 
 
