@@ -1293,7 +1293,7 @@ Tequila_Mousse_L = {"frische Eigelb in Stück": 3,
                     "Zubereitung 8": "Mouse in Gläser verteilen. Zugedeckt ca. 4 Stunden kühl stellen."
 }
 
-Tonkatsu_L = {"dünne Schweinsschnitzel à ca. 100 g in Stücken": 4,
+Tonkatsu_L = {"dünne Schweinsschnitzel": 4,
                     "Sojasauce in EL": 2,
                     "Mehl in EL": 4,
                     "Eier in Stück": 2,
