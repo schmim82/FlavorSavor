@@ -243,3 +243,14 @@ def random_rez(df):
     return zufalls_rezept
 
 
+#bilder anzeigen
+def bild_anzeigen(bild):
+    # Versuchen, das Bild anzuzeigen
+    try:
+        st.image(bild, use_column_width=True)
+    except FileNotFoundError:
+        st.error(f"Die Bilddatei '{bild}' wurde nicht gefunden.")
+    except Exception as e:
+        st.error(f"Fehler beim Laden des Bildes: {e}")
+
+
