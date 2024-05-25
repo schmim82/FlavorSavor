@@ -128,18 +128,7 @@ def init_rez():
    
 
 def save_to_csv_rez(dataframe):
-    """Speichere das DataFrame in einer CSV-Datei."""
-    if 'github' not in st.session_state:
-        init_github_rez()
-    
-    # Überprüfe, ob die Datei existiert
-    if not st.session_state.github.file_exists(DATA_FILE):
-        # Erstelle eine neue CSV-Datei mit den Spaltennamen
-        empty_df = pd.DataFrame(columns=DATA_COLUMNS)
-        st.session_state.github.write_df(DATA_FILE, empty_df, "Initial CSV")
-      
-
-    # Schreibe den DataFrame in die CSV-Datei
+ """Speichere das DataFrame in einer CSV-Datei."""
     st.session_state.github.write_df(DATA_FILE, dataframe, "updated CSV")
 
 def daten_hochladen(new_data_df):
