@@ -159,9 +159,10 @@ def rezepte_hinzufügen(name, rezept, anzahl):
 
     
     df = show_dataframe()
+    df_kriterien = df[df["name"] == name]
    
 
-    if rezept in df["rezept"].values:
+    if rezept in df_kriterien["rezept"].values:
         st.markdown("schon vorhanden")
 
     else:
@@ -174,9 +175,10 @@ def rezepte_hinzufügen(name, rezept, anzahl):
 def rezept_entfernen(name, rezept):
 
     df = show_dataframe()
+    df_kriterien = df[df["name"] == name]
    
 
-    new_data_df = df[df["rezept"] != rezept]
+    new_data_df = df_kriterien[df["rezept"] != rezept]
 
     daten_hochladen(new_data_df)
 
