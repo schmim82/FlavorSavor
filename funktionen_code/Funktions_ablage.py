@@ -32,22 +32,21 @@ def rezepte_L_gen(course_v, herkunft_v, veg_v, df):
 
     return liste
 
-def get_image_list():
+#def get_image_list():
     """
     Diese Funktion gibt eine Liste von Bilddateien aus dem lokalen 'images'-Ordner zurück.
     """
 #    image_dir = os.path.join(os.path.dirname(__file__), 'images')
-    image_dir ="images"
-    return [os.path.join(image_dir, img) for img in os.listdir(image_dir) if img.endswith(('png', 'jpg', 'jpeg', 'gif'))]
+#    return [os.path.join(image_dir, img) for img in os.listdir(image_dir) if img.endswith(('png', 'jpg', 'jpeg', 'gif'))]
 
 
-def bild_anzeigen(bild, bilder_liste):
+# def bild_anzeigen(bild, bilder_liste):
 # Überprüfen, ob das Bild in der Liste enthalten ist, und dann anzeigen
-    if bild in [os.path.basename(img) for img in bilder_liste]:
+#    if bild in [os.path.basename(img) for img in bilder_liste]:
 
-        st.image(os.path.join("Funktions_ablage", 'images', bild), use_column_width=True, output_format='PNG')
-    else:
-        st.markdown("")
+#        st.image(os.path.join("Funktions_ablage", 'images', bild), use_column_width=True, output_format='PNG')
+#    else:
+#        st.markdown("")
 
 
 
@@ -95,11 +94,11 @@ def zutaten_ausgabe(rezept, kochbuch, anzahl):
                 st.markdown(f" {key} -- {dictionary[key]}")
                 st.markdown("\n")
 
-    bilder_liste = get_image_list()
-    bild = dictionary.get("Bild")
+#    bilder_liste = get_image_list()
+#    bild = dictionary.get("Bild")
 
-    if bild:
-        bild_anzeigen(bild,bilder_liste)
+#    if bild:
+#        bild_anzeigen(bild,bilder_liste)
         
     st.markdown("\n")
     st.markdown("\n")
