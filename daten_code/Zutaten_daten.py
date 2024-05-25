@@ -22,7 +22,8 @@
 # Wichtig ist, das wenn die angabe nicht gramm ist, ist das der Key in der dictionary aus mehreren Wörter besteht.
 
 
-Nudeln_L = {"Blattspinat": 100,
+Nudeln_L = {"Bild": "pinkeblume.jpg",
+            "Blattspinat": 100,
             "Rucola": 50,
             "Knoblauch anzahl Zehen": 2,
             "Olivenöl in ml": 100,
