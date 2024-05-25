@@ -174,7 +174,7 @@ def rezepte_hinzufügen(name, rezept, anzahl):
 def rezept_entfernen(name, rezept):
 
     df = show_dataframe()
-    df_kriterien = df[df["name"] == name]
+   
 
     new_data_df = df[df["rezept"] != rezept]
 
