@@ -55,6 +55,9 @@ def zutaten_ausgabe(rezept, kochbuch, anzahl):
 
             Zubereitung_text.append(dictionary[key])
 
+        elif key == "Bild":
+            continue
+
         else:
 
             if isinstance(dictionary[key], int) or isinstance(dictionary[key], float):           
@@ -75,7 +78,12 @@ def zutaten_ausgabe(rezept, kochbuch, anzahl):
                 st.markdown(f" {key} -- {dictionary[key]}")
                 st.markdown("\n")
 
+    bilder_liste = get_image_list()
+    bild = dictionary.get("Bild")
 
+    if bild:
+        bild_anzeigen(bild,bilder_liste)
+        
     st.markdown("\n")
     st.markdown("\n")
     st.markdown("\n")
