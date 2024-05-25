@@ -194,6 +194,7 @@ def rezept_entfernen(name, rezept):
 
 def einkaufsliste_erstellen(einkaufsliste, Kochbuch):
     leere_dic = {}
+    leere_dic_2 = {}
 
     
 
@@ -209,6 +210,8 @@ def einkaufsliste_erstellen(einkaufsliste, Kochbuch):
 
             if words[0] != "Zubereitung":
 
+                
+
                 if key not in leere_dic:
 
                     if isinstance(dictionary[key], int) or isinstance(dictionary[key], float):
@@ -222,10 +225,32 @@ def einkaufsliste_erstellen(einkaufsliste, Kochbuch):
                     if isinstance(dictionary[key], int) or isinstance(dictionary[key], float):
                         leere_dic[key] = leere_dic[key] + (dictionary[key] * anzahl)
 
+
+
     for key in leere_dic:
-        st.markdown(f"{key} -- {leere_dic[key]}")
+        if isinstance(leere_dic[key], int) or isinstance(leere_dic[key], float):
+            leere_dic_2[key] = leere_dic[key]
+
+        else:
+            words_2 = key.split()
+            if words_2[0]  not in leere_dic_2:
+
+                leere_dic_2[words_2[0]] = ""
 
 
+
+                
+    for key in leere_dic_2:
+        words_3 = key.split()
+        if leere_dic_2[key] != "":
+            if len(words_3) == 1:
+                st.markdown(f"{key} -- {leere_dic_2[key]} gramm")
+
+            else:
+                st.markdown(f"{key} -- {leere_dic_2[key]}")
+
+        else:
+            st.markdown(f"{key}")
 
 
 #random rezept ausgabe
