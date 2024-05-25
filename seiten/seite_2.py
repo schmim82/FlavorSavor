@@ -38,23 +38,14 @@ def seite_2():
      
 
     
-    for item1, item2 in zip(pers_L, pers_L_anz):
-        st.sidebar.markdown(f"{item1} für {item2} Personen")
 
 
 
 
 
 
-    einkaufsdic = {}
-    variable = 0
-    
-    for item in pers_L:
-        einkaufsdic[item] = pers_L_anz[variable]
 
-        variable += 1 
 
-    fa.einkaufsliste_erstellen(einkaufsdic, zd.Kochbuch)
 
 
     
@@ -68,10 +59,25 @@ def seite_2():
 
         df = fa.show_dataframe()
 
-   
+
+        df_persönlich = df[df["name"] == username]
+
+        pers_L = df_persönlich["rezept"].tolist()
+        pers_L_anz = df_persönlich["anzahl"].tolist()
+
+        for item1, item2 in zip(pers_L, pers_L_anz):
+            st.sidebar.markdown(f"{item1} für {item2} Personen")
 
 
+        einkaufsdic = {}
+        variable = 0
+    
+        for item in pers_L:
+            einkaufsdic[item] = pers_L_anz[variable]
 
+            variable += 1 
+
+        fa.einkaufsliste_erstellen(einkaufsdic, zd.Kochbuch)
 
 
 
