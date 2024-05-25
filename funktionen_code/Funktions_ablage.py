@@ -161,7 +161,7 @@ def rezepte_hinzufügen(name, rezept, anzahl):
     df = show_dataframe()
    
 
-    if rezept in df_kriterien["rezept"].values:
+    if rezept in df["rezept"].values:
         st.markdown("schon vorhanden")
 
     else:
