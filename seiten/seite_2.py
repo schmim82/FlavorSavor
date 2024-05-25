@@ -24,7 +24,7 @@ def seite_2():
     username = fa.get_current_username()
     
 
-
+    pers_L = df_persönlich["rezept"].tolist()
 
 
     
