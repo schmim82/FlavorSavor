@@ -25,6 +25,7 @@ def seite_2():
     
 
     pers_L = df_persönlich["rezept"].tolist()
+    df_persönlich = df[df["name"] == username]
 
 
     
