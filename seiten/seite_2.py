@@ -23,7 +23,7 @@ def seite_2():
 
     username = fa.get_current_username()
     
-df = fa.show_dataframe()
+    df = fa.show_dataframe()
 
     st.dataframe(df)
 
