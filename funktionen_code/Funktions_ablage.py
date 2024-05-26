@@ -37,15 +37,18 @@ def get_image_list():
     return [os.path.join(image_dir, img) for img in os.listdir(image_dir) if img.endswith(('png', 'jpg', 'jpeg', 'gif'))]
 
 
-
-
-
 def bild_anzeigen(bild, bilder_liste):
+    image_dir = os.path.join(os.path.dirname(__file__), "images")
     if bild in [os.path.basename(img) for img in bilder_liste]:
-        st.image(os.path.join( "images", bild), use_column_width = True, output_format = "PNG")
+        st.image(os.path.join( image_dir, bild), use_column_width = True, output_format = "PNG")
 
     else:
         st.markdown("")
+
+
+
+
+
 
 
 #Ausgabe von Rezepte mit der Liste von Zutaten
