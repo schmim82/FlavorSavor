@@ -150,7 +150,8 @@ Panforte_L = {"Mandeln": 200,
               "Zubereitung 5": "Backen: ca. 30 Min. in der Mitte des Ofens. Herausnehmen, etwas abkühlen, Formenrand entfernen. Panforte mit dem Backpapier auf das Gitter schieben, auskühlen, mit Puderzucker bestäuben."
               }
 
-Matcha_Kokos_Schnitten_L = {"Butterkekse": 180,
+Matcha_Kokos_Schnitten_L = {"Bild": "matcha_kokos.png",
+                                    "Butterkekse": 180,
                             "Kondensmilch in dl": 3,
                             "Butter": 80,
                             "Kokosraspeln": 100,
