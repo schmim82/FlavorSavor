@@ -37,14 +37,15 @@ def get_image_list():
     return [os.path.join(image_dir, img) for img in os.listdir(image_dir) if img.endswith(('png', 'jpg', 'jpeg', 'gif'))]
 
 
- def bild_anzeigen(bild, bilder_liste):
- 
-    if bild in [os.path.basename(img) for img in bilder_liste]:
 
-        st.image(os.path.join("Funktions_ablage", 'images', bild), use_column_width=True, output_format='PNG')
+
+
+def bild_anzeigen(bild, bilder_liste):
+    if bild in [os.path.basename(img) for img in bilder_liste]:
+        st.image(os.path.join("Funktions_ablage", "images", bild), use_column_width = True, output_format = "PNG")
+
     else:
         st.markdown("")
-
 
 
 #Ausgabe von Rezepte mit der Liste von Zutaten
