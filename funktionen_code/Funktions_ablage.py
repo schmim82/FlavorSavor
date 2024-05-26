@@ -92,11 +92,11 @@ def zutaten_ausgabe(rezept, kochbuch, anzahl):
                 st.markdown(f" {key} -- {dictionary[key]}")
                 st.markdown("\n")
 
-#    bilder_liste = get_image_list()
-#    bild = dictionary.get("Bild")
+    bilder_liste = get_image_list()        #hier bilder
+    bild = dictionary.get("Bild")
 
-#    if bild:
-#        bild_anzeigen(bild,bilder_liste)
+    if bild:
+        bild_anzeigen(bild,bilder_liste)
         
     st.markdown("\n")
     st.markdown("\n")
