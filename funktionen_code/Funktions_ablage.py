@@ -202,21 +202,7 @@ def rezepte_hinzufügen(name, rezept, anzahl):
         daten_hochladen(new_data_df)
 
 
-def rezept_entfernen_v1(name, rezept):
 
-    init_rez()  # Initialisiere oder lade das DataFrame
-
-    # Filtere den DataFrame nach den Kriterien (Name und Rezept)
-    df_filtered = st.session_state.df_liste[(st.session_state.df_liste["name"] == name) & (st.session_state.df_liste["rezept"] == rezept)]
-
-    if not df_filtered.empty:
-        # Lösche die Zeilen mit den angegebenen Kriterien
-        st.session_state.df_liste.drop(df_filtered.index, inplace=True)
-        # Speichere den aktualisierten DataFrame in der CSV-Datei
-        save_to_csv_rez(st.session_state.df_liste)
-        st.success(f' "{rezept}" wurde aus der Einkaufsliste entfernt.')
-    else:
-        st.warning('Das Rezept {rezept} konnte nicht aus der Einkaufsliste entfernt werden')
 
 
 def rezept_entfernen(name, rezept):
