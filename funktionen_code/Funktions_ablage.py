@@ -41,7 +41,7 @@ def get_image_list():
 
 
  def bild_anzeigen(bild, bilder_liste):
- Überprüfen, ob das Bild in der Liste enthalten ist, und dann anzeigen
+ 
     if bild in [os.path.basename(img) for img in bilder_liste]:
 
         st.image(os.path.join("Funktions_ablage", 'images', bild), use_column_width=True, output_format='PNG')
