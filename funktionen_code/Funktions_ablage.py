@@ -202,7 +202,7 @@ def rezepte_hinzufügen(name, rezept, anzahl):
         daten_hochladen(new_data_df)
 
 
-def rezept_entfernen(name, rezept):
+def rezept_entfernen_v1(name, rezept):
 
     init_rez()  # Initialisiere oder lade das DataFrame
 
@@ -216,7 +216,36 @@ def rezept_entfernen(name, rezept):
         save_to_csv_rez(st.session_state.df_liste)
         st.success(f' "{rezept}" wurde aus der Einkaufsliste entfernt.')
     else:
-        st.warning('Die angegebenen Daten wurden nicht gefunden.')
+        st.warning('Das Rezept {rezept} konnte nicht aus der Einkaufsliste entfernt werden')
+
+
+def rezept_entfernen(name, rezept):
+
+    init_rez()
+
+    if rezept == "alle":
+        df_filtered = st.session_state.df_liste[st.session_state.df_liste["name"] == name]
+
+        if not df_filtered.empty:
+
+            st.session_state.df_liste.drop(df_filtered.index, inplace = True)
+
+            save_to_csv_rez(st.session_state.df_liste)
+            st.success(f" Alle Rezepte für {name} wurden a us der Einkaufsliste entfernt.")
+
+        else:
+            st.warning(f"Keine Rezepte für {name} in der Einkaufsliste gefunden.")
+
+    else:
+        df_filtered = st.session_state.df_liste[(st.session_state.df_liste["name"] == name) & (st.session_state.df_liste["rezept"] == rezept)]
+
+        if not df_filtered.empty:
+            st.session_state.df_liste.drop(df_filtered.index, inplace=True)
+            save_to_csv_rez(st.session_state.df_liste)
+            st.success(f"{rezept} wurde aus der Einkaufsliste entfernt.")
+        else:
+            st.warning(f"Das Rezept {rezept} konnte nicht aus der Einkaufsliste entfernt werden.")
+        
 
 
 
