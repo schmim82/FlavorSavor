@@ -57,6 +57,8 @@ def zutaten_ausgabe(rezept, kochbuch, anzahl):
     st.title(rezept)
     st.markdown("\n")
     
+    dictionary = kochbuch[rezept]
+    
     bilder_liste = get_image_list()        #hier bilder
     bild = dictionary.get("Bild")
 
@@ -64,7 +66,7 @@ def zutaten_ausgabe(rezept, kochbuch, anzahl):
         bild_anzeigen(bild,bilder_liste)
 
     
-    dictionary = kochbuch[rezept]
+
 
     variable = 0
     Zubereitung_text = []
