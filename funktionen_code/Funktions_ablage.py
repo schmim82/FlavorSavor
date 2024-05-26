@@ -42,7 +42,7 @@ def get_image_list():
 
 def bild_anzeigen(bild, bilder_liste):
     if bild in [os.path.basename(img) for img in bilder_liste]:
-        st.image(os.path.join("Funktions_ablage", "images", bild), use_column_width = True, output_format = "PNG")
+        st.image(os.path.join( "images", bild), use_column_width = True, output_format = "PNG")
 
     else:
         st.markdown("")
