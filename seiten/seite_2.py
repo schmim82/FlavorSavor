@@ -30,7 +30,8 @@ def seite_2():
 
     df_persönlich = df[df["name"] == username]
 
-    pers_L = df_persönlich["rezept"].tolist()
+    pers_L_v1 = df_persönlich["rezept"].tolist()
+    pers_L = pers_L_v1.append("alle")
     pers_L_anz = df_persönlich["anzahl"].tolist()
 
      
@@ -48,7 +49,7 @@ def seite_2():
 
     
 
-    rezept_zum_entfernen = st.sidebar.selectbox("Wähle das Rezept zum entfernen aus","alle", pers_L)
+    rezept_zum_entfernen = st.sidebar.selectbox("Wähle das Rezept zum entfernen aus", pers_L)
     entfern_button = st.sidebar.button("entfernen")
 
     if entfern_button:
