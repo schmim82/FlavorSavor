@@ -33,7 +33,6 @@ def rezepte_L_gen(course_v, herkunft_v, veg_v, df):
     return liste
 
 def get_image_list():
-    
     image_dir = os.path.join(os.path.dirname(__file__),"..", 'images')
     return [os.path.join(image_dir, img) for img in os.listdir(image_dir) if img.endswith(('png', 'jpg', 'jpeg', 'gif'))]
 
