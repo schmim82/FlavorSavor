@@ -289,8 +289,97 @@ def random_rez(df):
     return zufalls_rezept
 
 
-#bilder anzeigen
 
+
+#Favoriten
+
+DATA_FILE_1 = "Favoriten.csv"
+DATA_COLUMNS_1 = ['name', 'rezept']
+
+
+
+def init_rez_f():
+    """Initialisiere oder lade das DataFrame."""
+    if 'df_favoriten' not in st.session_state:
+        if st.session_state.github.file_exists(DATA_FILE_1):
+            st.session_state.df_favoriten = st.session_state.github.read_df(DATA_FILE_1)
+        else:
+            st.session_state.df_favoriten = pd.DataFrame(columns=DATA_COLUMNS_1)
+
+def save_to_csv_rez_f(dataframe):
+
+    st.session_state.github.write_df(DATA_FILE_1, dataframe, "updated CSV")
+
+def daten_hochladen_f(new_data_df):
+    init_github_rez() # Initialisiere das GithubContents-Objekt
+    init_rez_f() # Lade die informationen aus dem GitHub-Datenrepository
+
+# DataFrame aktualisieren
+    st.session_state.df_favoriten = pd.concat([st.session_state.df_favoriten, new_data_df], ignore_index=True)
+
+# DataFrame in CSV-Datei speichern
+    save_to_csv_rez_f(st.session_state.df_favoriten)
+
+
+def show_dataframe_f():
+    dataframe = st.session_state.df_favoriten
+    
+    return dataframe
+
+
+
+
+
+
+
+
+
+def rezepte_hinzufügen_f(name, rezept):
+
+    
+    df = show_dataframe_f()
+    df_kriterien = df[df["name"] == name]
+   
+
+    if rezept in df_kriterien["rezept"].values:
+        st.markdown("schon vorhanden")
+
+    else:
+        new_data = {'name': [name], 'rezept': [rezept]}
+        new_data_df = pd.DataFrame(new_data)
+
+        daten_hochladen_f(new_data_df)
+
+
+
+
+
+def rezept_entfernen(name, rezept):
+
+    init_rez_f()
+
+    if rezept == "alle":
+        df_filtered = st.session_state.df_favoriten[st.session_state.df_favoriten["name"] == name]
+
+        if not df_filtered.empty:
+
+            st.session_state.df_favoriten.drop(df_filtered.index, inplace = True)
+
+            save_to_csv_rez_f(st.session_state.df_favoriten)
+            st.success(f" Alle Rezepte für {name} wurden a us der Einkaufsliste entfernt.")
+
+        else:
+            st.warning(f"Keine Rezepte für {name} in der Einkaufsliste gefunden.")
+
+    else:
+        df_filtered = st.session_state.df_favoriten[(st.session_state.df_favoriten["name"] == name) & (st.session_state.df_favoriten["rezept"] == rezept)]
+
+        if not df_filtered.empty:
+            st.session_state.df_favoriten.drop(df_filtered.index, inplace=True)
+            save_to_csv_rez_f(st.session_state.df_favoriten)
+            st.success(f"{rezept} wurde aus der Einkaufsliste entfernt.")
+        else:
+            st.warning(f"Das Rezept {rezept} konnte nicht aus der Einkaufsliste entfernt werden.")
 
 
 
