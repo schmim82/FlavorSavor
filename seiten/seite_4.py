@@ -21,6 +21,6 @@ def seite_4():
 
   pers_L = df_persönlich["rezept"].tolist()
   pers_L.append("alle")
-  pers_L_anz = df_persönlich["anzahl"].tolist()
+
 
            
