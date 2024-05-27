@@ -75,7 +75,7 @@ def seite_1():
 
         user_name = fa.get_current_username()
 
-        fa.rezepte_hinzufügen_f(username, choose_recipe)
+        fa.rezepte_hinzufügen_f(user_name, choose_recipe)
 
 
 
