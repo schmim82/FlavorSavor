@@ -24,3 +24,33 @@ def seite_4():
 
 
            
+  rezept_zum_entfernen = st.sidebar.selectbox("Wähle das Rezept zum entfernen aus", pers_L)
+  entfern_button = st.sidebar.button("entfernen")
+
+  if entfern_button:
+      fa.rezept_entfernen_f(username, rezept_zum_entfernen)
+
+
+      df = fa.show_dataframe()
+
+
+      df_persönlich = df[df["name"] == username]
+
+      pers_L = df_persönlich["rezept"].tolist()
+
+
+      for item1 in zip(pers_L):
+          st.markdown(item1)
+
+    
+  else:
+      df = fa.show_dataframe()
+
+
+      df_persönlich = df[df["name"] == username]
+
+      pers_L = df_persönlich["rezept"].tolist()
+
+      for item1 in zip(pers_L):
+          st.markdown(item1)
+
