@@ -10,6 +10,7 @@ from funktionen_code import Funktions_ablage as fa
 from seiten import seite_1 as s_1
 from seiten import seite_2 as s_2
 from seiten import seite_3 as s_3
+from seiten import seite_4 as s_4
 
 
 st.set_page_config(page_title="FlavorSavor")
@@ -130,6 +131,9 @@ def main():
 
         elif seitenauswahl == "Random Rezept":
             s_3.seite_3()
+
+        elif seitenauswahl == "Favoriten":
+            s_4.seite_4()
 
 
 
