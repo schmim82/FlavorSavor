@@ -11,5 +11,16 @@ def seite_4():
 
   st.title("Favoriten")
 
+  username = fa.get_current_username()
+
+
+  df = fa.show_dataframe_f()
+  df_persönlich = df[df["name"] == username]
+
+  st.subheader("Deine lieblings Rezepte sind:")
+
+  pers_L = df_persönlich["rezept"].tolist()
+  pers_L.append("alle")
+  pers_L_anz = df_persönlich["anzahl"].tolist()
 
            
