@@ -120,7 +120,7 @@ def main():
 
 
         #replace the code bellow with your own code or switch to another page
-        seiten = ("Rezept Auswahl", "Einkaufsliste", "Random Rezept")
+        seiten = ("Rezept Auswahl","Random Rezept","Einkaufsliste","Favoriten" )
         seitenauswahl = st.sidebar.selectbox("Wähle die Seite aus", seiten)
         if seitenauswahl == "Rezept Auswahl":
             s_1.seite_1()
