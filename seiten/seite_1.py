@@ -59,7 +59,7 @@ def seite_1():
     
     fa.init_rez()
 
-    Liste_button = st.sidebar.button("Zur Liste hinzufügen")
+    Liste_button = st.sidebar.button("Zur Einkaufsliste hinzufügen")
     
     if Liste_button:
 
@@ -69,7 +69,15 @@ def seite_1():
         fa.rezepte_hinzufügen(user_name, choose_recipe, personenanzahl)
 
 
-    #random stopp
+    favoriten_button = st.sidebar.button("Zur Favoritenliste hinzufügen")
+
+    if favoriten_button:
+
+        user_name = fa.get_current_username()
+
+        fa.rezepte_hinzufügen_f(username, choose_recipe)
+
+
 
 
 
