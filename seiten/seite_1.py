@@ -73,6 +73,8 @@ def seite_1():
 
     if favoriten_button:
 
+        fa.init_rez_f()
+
         user_name = fa.get_current_username()
 
         fa.rezepte_hinzufügen_f(user_name, choose_recipe)
