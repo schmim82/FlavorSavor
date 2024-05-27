@@ -480,9 +480,11 @@ Tortilla_L = {"Vollkorn-Tortillas in Stück": 6,
                 "Vollrahm in dl": 1,
                 "Pfeffer": "nach Bedarf",
                 "wenig Salz": "nach Bedarf",
-                "Muskatnuss": "nach Bedarf",
-                "Zubereitung 1": "Kartoffeln und Teigwaren (ca. 7 -10 Minutend kochend)zusammen in reichlich Salzwasser garen. Abgiessen und abtropfen lassen. Lagenweise mit dem Käse zurück in die heisse Pfanne oder in eine vorgewärmte Form geben.",
-                "Zubereitung 2": "Rahm würzen und über die Teigwaren giessen."
+                "Muskatnuss": "nach Bedarf",                
+                "Zubereitung 1": "Ofen auf 190°C Heissluft vorheizen (Ober-/Unterhitze 210°C).",
+                "Zubereitung 2": "Je 2 Tortillas auf die vorbereiteten Bleche legen, mit je 2 EL Frischkäse/Crème fraîche bestreichen. Speckwürfeli und Zwiebel darauf verteilen, mit Salz und Pfeffer würzen.",
+                "Zubereitung 3": "Im vorgeheizten Ofen ca. 10 Minuten backen, bis die Tortillas am Rand zu bräunen beginnen. Je nach Ofen nach der Hälfte der Zeit Bleche tauschen.",
+                "Zubereitung 4": "Herausnehmen, Rüebli grob geraffelt und Schnittlauch darauf verteilen, heiss servieren."
 }
 
 
@@ -494,10 +496,9 @@ Aelplermagronen_L = {"festkochende Kartoffeln": 600,
                 "Zwiebel Hälfte": 1,
                 "Salz prisen": "eine",
                 "Pfeffer prisen": "eine",
-                "Zubereitung 1": "Ofen auf 190°C Heissluft vorheizen (Ober-/Unterhitze 210°C).",
-                "Zubereitung 2": "Je 2 Tortillas auf die vorbereiteten Bleche legen, mit je 2 EL Frischkäse/Crème fraîche bestreichen. Speckwürfeli und Zwiebel darauf verteilen, mit Salz und Pfeffer würzen.",
-                "Zubereitung 3": "Im vorgeheizten Ofen ca. 10 Minuten backen, bis die Tortillas am Rand zu bräunen beginnen. Je nach Ofen nach der Hälfte der Zeit Bleche tauschen.",
-                "Zubereitung 4": "Herausnehmen, Rüebli grob geraffelt und Schnittlauch darauf verteilen, heiss servieren.",
+            "Zubereitung 1": "Kartoffeln und Teigwaren (ca. 7 -10 Minutend kochend)zusammen in reichlich Salzwasser garen. Magronen dazugeben, alles 8–10 Minuten knapp weich kochen. Abgiessen und gut abtropfen lassen.",
+                "Zubereitung 2": "Spekwürfel goldigbraun anbraten. Käse entrinden und in Würfel schneiden.",
+                "Zubereitung 3": "Mit dem Rahm zu den Teigwaren und Kartoffeln geben. Bei ausgeschalteter Herdplatte zugedeckt ca. 5 Minuten durchziehen lassen, bis der Käse geschmolzen ist. Mit Pfeffer abschmecken."
 }
 
 
