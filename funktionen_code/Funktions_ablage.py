@@ -354,7 +354,7 @@ def rezepte_hinzufügen_f(name, rezept):
 
 
 
-def rezept_entfernen(name, rezept):
+def rezept_entfernen_f(name, rezept):
 
     init_rez_f()
 
