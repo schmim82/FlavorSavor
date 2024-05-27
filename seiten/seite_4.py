@@ -40,7 +40,7 @@ def seite_4():
 
 
       for item1 in zip(pers_L):
-          st.markdown(item1)
+          st.markdown(f"{item1}")
 
     
   else:
@@ -52,5 +52,5 @@ def seite_4():
       pers_L = df_persönlich["rezept"].tolist()
 
       for item1 in zip(pers_L):
-          st.markdown(item1)
+          st.markdown(f"{item1}")
 
