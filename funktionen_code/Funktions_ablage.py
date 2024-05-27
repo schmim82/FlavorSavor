@@ -217,7 +217,7 @@ def rezept_entfernen(name, rezept):
             st.session_state.df_liste.drop(df_filtered.index, inplace = True)
 
             save_to_csv_rez(st.session_state.df_liste)
-            st.success(f" Alle Rezepte für {name} wurden a us der Einkaufsliste entfernt.")
+            st.success(f" Alle Rezepte für {name} wurden aus der Einkaufsliste entfernt.")
 
         else:
             st.warning(f"Keine Rezepte für {name} in der Einkaufsliste gefunden.")
@@ -366,10 +366,10 @@ def rezept_entfernen_f(name, rezept):
             st.session_state.df_favoriten.drop(df_filtered.index, inplace = True)
 
             save_to_csv_rez_f(st.session_state.df_favoriten)
-            st.success(f" Alle Rezepte für {name} wurden a us der Einkaufsliste entfernt.")
+            st.success(f" Alle Rezepte für {name} wurden aus der Favoritenliste entfernt.")
 
         else:
-            st.warning(f"Keine Rezepte für {name} in der Einkaufsliste gefunden.")
+            st.warning(f"Keine Rezepte für {name} in der Favoritenliste gefunden.")
 
     else:
         df_filtered = st.session_state.df_favoriten[(st.session_state.df_favoriten["name"] == name) & (st.session_state.df_favoriten["rezept"] == rezept)]
@@ -377,9 +377,9 @@ def rezept_entfernen_f(name, rezept):
         if not df_filtered.empty:
             st.session_state.df_favoriten.drop(df_filtered.index, inplace=True)
             save_to_csv_rez_f(st.session_state.df_favoriten)
-            st.success(f"{rezept} wurde aus der Einkaufsliste entfernt.")
+            st.success(f"{rezept} wurde aus der Favoritenliste entfernt.")
         else:
-            st.warning(f"Das Rezept {rezept} konnte nicht aus der Einkaufsliste entfernt werden.")
+            st.warning(f"Das Rezept {rezept} konnte nicht aus der Favoritenliste entfernt werden.")
 
 
 
