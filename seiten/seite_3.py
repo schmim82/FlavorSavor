@@ -41,6 +41,16 @@ def seite_3():
 
         fa.rezepte_hinzufügen(user_name, st.session_state.random_rezept, personenanzahl)
 
+    favoriten_button = st.sidebar.button("Zur Favoritenliste hinzufügen")
+
+    if favoriten_button:
+
+        fa.init_rez_f()
+
+        user_name = fa.get_current_username()
+
+        fa.rezepte_hinzufügen_f(user_name, choose_recipe)
+
 
 
 
