@@ -958,7 +958,7 @@ Reis_und_Bohnen_L = {"Langkornreis": 300,
                      "Zubereitung 5": "Thymian, Piment, Salz und Pfeffer hinzufügen und alles gut vermischen.",
                      "Zubereitung 6": "Zum Kochen bringen, dann die Hitze reduzieren und zugedeckt etwa 20 Minuten köcheln lassen, bis der Reis gar ist und die Flüssigkeit aufgenommen wurde.",
                      "Zubereitung 7": "Gelegentlich umrühren und bei Bedarf mehr Brühe hinzufügen. Warm servieren.",
-                     "Bile": "Reis_Bohnen.jpg"
+                     "Bile": "bohnenreis.jpg"
 }
 
 Gemüsepfanne_L = {"Zucchini in Stück": 2,
