@@ -42,7 +42,8 @@ Nudeln_L = {"Bild": "pinkeblume.jpg",
             
 }
 
-Kuchen_L ={"Rhabarber" : 500,
+Kuchen_L ={"Bild": "Rhabarber_kuchen.jpg",
+           "Rhabarber" : 500,
            "Zucker" : 60,
            "Halbfettquark" : 500,
            "Eier in Stück" : 3,
@@ -59,7 +60,8 @@ Kuchen_L ={"Rhabarber" : 500,
            "Zubereitung 5": "In der Mitte des vorgeheizten Ofens 35-40 Minuten backen. Herausnehmen, mit Puderzucker bestäuben. Heiss servieren."
 }
 
-Parmigiana_L={"Auberginen in Stück": 4,
+Parmigiana_L={"Bild": "parmigiana.jpg",
+              "Auberginen in Stück": 4,
               "Olivenöl in ml": 55,
               "Knoblauch anzahl Zehen": 2,
               " Tomaten gehackte in Anzahl Dosen": 1,
@@ -77,7 +79,8 @@ Parmigiana_L={"Auberginen in Stück": 4,
               "Zubereitung 7": "Basilikum darüberstreuen."
 }
 
-Lasagne_L= {"Rüebli": 200,
+Lasagne_L= {"Bild":"lasagne.jpg",
+            "Rüebli": 200,
             "Selerie": 200,
             "Zwiebeln in Stück": 2,
             "Knoblauch anzahl Zehen": 2,
@@ -101,7 +104,8 @@ Lasagne_L= {"Rüebli": 200,
             "Zubereitung 5": "Backen: ca. 35 Min. in der unteren Hälfte des Ofens. Herausnehmen, ca. 5 Min. ruhen lassen, Lasagne anrichten."   
 }
 
-Bruschetta_L= {"Tomaten in Stück": 10,
+Bruschetta_L= {"Bild":"bruschetta.jpg",
+               "Tomaten in Stück": 10,
                "Zwiebeln in Stück": 1,
                "Knoblauch anzahl Zehen": 1,
                "Baguettes oder Ciabatta in Stück": 1,
@@ -121,7 +125,8 @@ Bruschetta_L= {"Tomaten in Stück": 10,
                "Zubereitung 4": "Schneiden Sie nun das Baguette in 2 cm dicke Scheiben und braten Sie diese in einer Pfanne mit heißem Olivenöl auf beiden Seiten an, bis sie goldbraun sind. Jetzt sollten Sie schnell die Tomatenmasse mit einem Esslöffel auf die Brötchenteile geben, da sie sonst kalt und matschig werden. Breiten Sie die kleinen Bruschette auf einem Teller aus und verteilen Sie sie etwas. Nun Balsamicocreme auf ihnen verteilen. Zum Schluss geben Sie noch etwas geriebenen Parmesan über die Teilchen und garnieren Sie diese ggf. mit einem kleinen Basilikumblättchen. Bis das geschafft ist, haben die Bruschette die richtige Temperatur zum Verzehr erreicht."
 }
 
-Panna_cotta_L = {"Gelatine anzahl Blätter": 2,
+Panna_cotta_L = {"Bild": "panna_cotta.jpg",
+                 "Gelatine anzahl Blätter": 2,
                  "Vollrahm in dl": 4,
                  "Milch in dl": 1,
                  "Zucker": 37.5,
@@ -131,7 +136,8 @@ Panna_cotta_L = {"Gelatine anzahl Blätter": 2,
 
 }
 
-Panforte_L = {"Mandeln": 200,
+Panforte_L = {"Bild":"panforte.jpg",
+              "Mandeln": 200,
               "Mehl": 100,
               "Orangeat": 100,
               "Sultaninen": 100,
@@ -167,7 +173,8 @@ Matcha_Kokos_Schnitten_L = {"Bild": "matcha_kokos.png",
                             "Zubereitung 6": "In Stücke schneiden und mit Kokosraspeln garnieren. Passt gut zu schwarzem oder grünem Tee."
 }
 
-Goma_Ae_L = {"Blattspinat": 500,
+Goma_Ae_L = {"Bild":"goma_ae.jpg",
+             "Blattspinat": 500,
              "Sesamsamen in EL": 2,
              "Sojasauce in EL": 2,
              "Mirin in EL": 1,
@@ -181,7 +188,8 @@ Goma_Ae_L = {"Blattspinat": 500,
              "Zubereitung 6": "Kalt oder bei Raumtemperatur servieren."
 }
 
-Agedashi_Nasu_L= {"Auberginen in Stück": 2,
+Agedashi_Nasu_L= {"Bild":"agedashi_nasu.jpg",
+                  "Auberginen in Stück": 2,
                   "Maisstärke in EL": 4,
                   "Pflanzenöl zum Frittieren": "nach Bedarf",
                   "Dashi in ml": 240,
@@ -202,7 +210,8 @@ Agedashi_Nasu_L= {"Auberginen in Stück": 2,
 }
 
 
-Miso_Ramen_Nudelsuppe_L= {"Ramennudeln": 400,
+Miso_Ramen_Nudelsuppe_L= {"Bild":"miso_ramen_nudelsuppe.jpg",
+                          "Ramennudeln": 400,
                           "Miso-Paste in Esslöffel": 4,
                           "Rinderbrühe in Liter": 1,
                           "Sojasauce in Esslöffel": 3,
@@ -225,7 +234,8 @@ Miso_Ramen_Nudelsuppe_L= {"Ramennudeln": 400,
                           "Zubereitung 7": "Die Suppe in Schüsseln portionieren und mit den vorbereiteten Zutaten garnieren, wie Frühlingszwiebeln, Koriander, Lauch und Nori-Algenblättern."
 }
 
-Moussaka_L ={"Auberginen in Stück": 1,
+Moussaka_L ={"Bild":"moussaka.jpg",
+             "Auberginen in Stück": 1,
              "Kartoffeln in Scheiben": 3,
              "Hackfleisch": 500,
              "Zwiebeln in Stück": 2,
@@ -253,7 +263,8 @@ Moussaka_L ={"Auberginen in Stück": 1,
              "Zubereitung 12": "Die Moussaka bei 180°C im vorgeheizten Backofen etwa 45 Minuten backen, bis sie goldbraun ist.",
              "Zubereitung 13": "Aus dem Ofen nehmen und vor dem Servieren kurz abkühlen lassen."}
 
-Tzatziki_L = {"Gurken in Stück": 1,
+Tzatziki_L = {"Bild":"tzatziki.jpg",
+              "Gurken in Stück": 1,
               "Griechenjoghurt": 200,
               "Knoblauch anzahl Zehen": 1,
               "Olivenöl in ml": 30,
@@ -269,7 +280,8 @@ Tzatziki_L = {"Gurken in Stück": 1,
               "Zubereitung 7": "Vor dem Servieren nochmals abschmecken und nach Bedarf mit etwas Olivenöl und frischer Minze garnieren."
 }
 
-Baklava_L= {"Walnüsse ": 200,
+Baklava_L= {"Bild":"baklava.jpg",
+            "Walnüsse ": 200,
             "Mandeln": 200,
             "Blätterteig": 1,
             "Butter": 150,
@@ -288,7 +300,8 @@ Baklava_L= {"Walnüsse ": 200,
             "Zubereitung 8": "Vor dem Servieren das Baklava in die einzelnen Stücke schneiden und servieren." 
 }
 
-Gurkensalat_L = {"Gurken in Stück": 2,
+Gurkensalat_L = {"Bild":"gurkensalat.jpg",
+                 "Gurken in Stück": 2,
                  "Saure Sahne in EL": 4,
                  "Essig in EL": 2,
                  "Zucker": 15,
@@ -302,7 +315,8 @@ Gurkensalat_L = {"Gurken in Stück": 2,
                  "Zubereitung 6": "Vor dem Servieren nochmals abschmecken und nach Bedarf mit frischem Dill garnieren."
   } 
 
-Rinderrouladen_L ={"Rinderrouladen in Stück": 4,
+Rinderrouladen_L ={"Bild":"rinderroulade.jpg",
+                   "Rinderrouladen in Stück": 4,
                    "Senf in EL": 4,
                    "Speck in Scheiben": 8,
                    "Zwiebeln in Stück": 2,
@@ -331,7 +345,8 @@ Rinderrouladen_L ={"Rinderrouladen in Stück": 4,
                      "Zubereitung 10": "Die Rinderrouladen mit Rotkohl und Kartoffelklößen servieren und mit der Sauce übergießen." 
 }
 
-Apfelstrudel_L ={ "Äpfel in Stück": 4,
+Apfelstrudel_L ={ "Bild":"apfelstudel.jpg",
+                 "Äpfel in Stück": 4,
                  "Zucker": 60,
                  "Rosinen": 100,
                  "Zimt in TL": 2,
@@ -353,7 +368,8 @@ Apfelstrudel_L ={ "Äpfel in Stück": 4,
                  "Zubereitung 10": "Den Apfelstrudel warm mit Vanillesauce servieren."
   }
 
-Pad_Thai_L = { "Reisnudeln": 200,
+Pad_Thai_L = { "Bild":"pad_thai.jpg",
+              "Reisnudeln": 200,
               "Garnelen": 200,
               "Tofu": 150,
               "Eier in Stück": 2,
@@ -375,7 +391,8 @@ Pad_Thai_L = { "Reisnudeln": 200,
               "Zubereitung 7": "Mit Erdnüssen und Frühlingszwiebeln garnieren. Mit Limettenspalten servieren."
   }
 
-Tom_Kha_Gai_L= {"Hähnchenbrust": 400,
+Tom_Kha_Gai_L= {"Bild":"tom_kha_gai.jpg",
+                "Hähnchenbrust": 400,
                 "Kokosmilch in dl": 4,
                 "Hühnerbrühe in ml": 500,
                 "Galangal in Scheiben": 4,
@@ -392,7 +409,7 @@ Tom_Kha_Gai_L= {"Hähnchenbrust": 400,
                 "Zubereitung 3": "Galangal, Zitronengras, Kaffir-Limettenblätter und Chilis hinzufügen.",
                 "Zubereitung 4": "Hähnchenbrust und Pilze dazugeben und köcheln lassen, bis das Hähnchen gar ist.",
                 "Zubereitung 5": "Mit Fischsauce und Zucker abschmecken.",
-                "Zubereitung 6": "Mit frischem Koriander garnieren und mit Limettenspalten servieren."
+                "Zubereitung 6": "Mit frischem Koriander garnieren und mit Limettenspalten servieren.",
 }
 
 Som_Tam_L = {"Papaya": 300,
@@ -410,7 +427,8 @@ Som_Tam_L = {"Papaya": 300,
              "Zubereitung 3": "Grüne Bohnen in kochendem Wasser kurz blanchieren, abtropfen lassen und halbieren.",
              "Zubereitung 4": "In einer Schüssel die gehobelte Papaya, Karotten, Tomaten, grüne Bohnen, Knoblauch und Chilis vermischen.",
              "Zubereitung 5": "Fischsauce, Zucker und Limettensaft hinzufügen und gut vermengen.",
-             "Zubereitung 6": "Mit gehackten Erdnüssen bestreuen und servieren."
+             "Zubereitung 6": "Mit gehackten Erdnüssen bestreuen und servieren.",
+             "Bild": "som_tam.jpg"
   }
 
 Tom_Yum_L ={"Hühnerbrühe in ml": 500,
@@ -427,7 +445,8 @@ Tom_Yum_L ={"Hühnerbrühe in ml": 500,
             "Zubereitung 2": "Zitronengras, Galangal, Kaffir-Limettenblätter und Chilis hinzufügen und köcheln lassen, bis die Aromen freigesetzt werden.",
             "Zubereitung 3": "Champignons hinzufügen und weiter köcheln lassen, bis sie gar sind.",
             "Zubereitung 4": "Mit Fischsauce, Zucker und Limettensaft abschmecken.",
-            "Zubereitung 5": "Mit frischem Koriander garnieren und mit Limettenspalten servieren." 
+            "Zubereitung 5": "Mit frischem Koriander garnieren und mit Limettenspalten servieren." ,
+            "Bild": "Tom_yam.jpg"
 }
 
 Mango_Reis_L = {"Klebriger Reis Anzahl Tassen": 1,
@@ -440,7 +459,8 @@ Mango_Reis_L = {"Klebriger Reis Anzahl Tassen": 1,
                 "Zubereitung 2": "Den Reis abgießen und in einem Dampfgarer oder Reiskocher weich kochen.",
                 "Zubereitung 3": "In einem Topf die Kokosmilch, Zucker und Salz erwärmen und gut umrühren, bis sich der Zucker aufgelöst hat.",
                 "Zubereitung 4": "Den gekochten klebrigen Reis hinzufügen und gründlich mit der Kokosmilchmischung vermengen. Bei Bedarf mehr Zucker hinzufügen.",
-                "Zubereitung 5": "Die Mango in Scheiben schneiden und mit dem klebrigen Reis servieren. Mit Sesamsamen garnieren und warm oder gekühlt genießen."
+                "Zubereitung 5": "Die Mango in Scheiben schneiden und mit dem klebrigen Reis servieren. Mit Sesamsamen garnieren und warm oder gekühlt genießen.",
+                "Bild": "mango-reis.jpg"
   } 
 
 Banana_Roti_L= { "Mehl": 120,
@@ -455,7 +475,8 @@ Banana_Roti_L= { "Mehl": 120,
                 "Zubereitung 3": "Die Bananen schälen und längs halbieren.",
                 "Zubereitung 4": "Etwas Öl in einer Pfanne erhitzen. Den Teigkreis in die Pfanne geben und auf beiden Seiten goldbraun braten.",
                 "Zubereitung 5": "Eine halbe Banane auf die Hälfte des gebratenen Teigs legen, mit etwas Zucker bestreuen und den Teig über die Banane klappen. Weitere 1-2 Minuten braten, bis der Roti goldbraun ist.",
-                "Zubereitung 6": "Den Banana Roti aus der Pfanne nehmen, in Stücke schneiden und mit Kondensmilch beträufeln. Warm servieren und genießen."
+                "Zubereitung 6": "Den Banana Roti aus der Pfanne nehmen, in Stücke schneiden und mit Kondensmilch beträufeln. Warm servieren und genießen.",
+                "Bild": "banana-roti.jpg"
 }
 
 Spaghetti_L= { "Spaghetti": 500,
@@ -466,11 +487,12 @@ Spaghetti_L= { "Spaghetti": 500,
                 "Sprinz oder Parmino": 75,
                 "Pfeffer": "nach Bedarf",
                 "Salz": "nach Bedarf",
-                "Zubereitung 1": "paghetti in reichlich Salzwasser al dente kochen.",
+                "Zubereitung 1": "Spaghetti in reichlich Salzwasser al dente kochen.",
                 "Zubereitung 2": "Speck in der Bratpfanne knusprig braten, Pfanne vom Herd nehmen. Knoblauch dazu pressen, umrühren. Pfanne etwas abkühlen lassen, damit die Eimasse nicht gerinnt beim Mischen mit den Spaghetti.",
                 "Zubereitung 3": "Eier, Rahm, Pfeffer und Salz in einer Schüssel kräftig verrühren. Käse daruntermischen. Eimasse in die abgekühlte Bratpfanne zu Speck und Knobli giessen. Spaghetti abgiessen und gut abtropfen lassen, zur Eimasse geben.",
                 "Zubereitung 4": "Vorsichtig mischen.",
-                "Zubereitung 5": "Spaghetti auf vorgewärmten Tellern verteilen und nach Belieben Käse darüber reiben." 
+                "Zubereitung 5": "Spaghetti auf vorgewärmten Tellern verteilen und nach Belieben Käse darüber reiben." ,
+                "Bild": "spaghetti-carbonara.jpg"
 }
 
 Tortilla_L = {"Vollkorn-Tortillas in Stück": 6,
@@ -494,17 +516,19 @@ Aelplermagronen_L = {"festkochende Kartoffeln": 600,
                 "Speckwürfeli": 160,
                 "Eier in Stück": 3,
                 "Zwiebel Hälfte": 1,
-                "Salz prisen": "eine",
-                "Pfeffer prisen": "eine",
+                "Salz prisen": 1,
+                "Pfeffer prisen": 1,
             "Zubereitung 1": "Kartoffeln und Teigwaren (ca. 7 -10 Minutend kochend)zusammen in reichlich Salzwasser garen. Magronen dazugeben, alles 8–10 Minuten knapp weich kochen. Abgiessen und gut abtropfen lassen.",
-                "Zubereitung 2": "Spekwürfel goldigbraun anbraten. Käse entrinden und in Würfel schneiden.",
-                "Zubereitung 3": "Mit dem Rahm zu den Teigwaren und Kartoffeln geben. Bei ausgeschalteter Herdplatte zugedeckt ca. 5 Minuten durchziehen lassen, bis der Käse geschmolzen ist. Mit Pfeffer abschmecken."
+                "Zubereitung 2": "Speckwürfel goldigbraun anbraten. Käse entrinden und in Würfel schneiden.",
+                "Zubereitung 3": "Mit dem Rahm zu den Teigwaren und Kartoffeln geben. Bei ausgeschalteter Herdplatte zugedeckt ca. 5 Minuten durchziehen lassen, bis der Käse geschmolzen ist. Mit Pfeffer abschmecken.",
+                "Zubereitung 4": "Zwiebeln goldbraun anbraten und vor dem servieren als Topping auf die Älplermagronen geben",
+                "Bild": "älplermagronen.jpeg"
 }
 
 
 Flammkuchen_L = {"Mehl": 220,
                 "Frischkäse oder Crème fraîche": 150,
-                "Salz prisen": "eine",
+                "Salz prisen": 1,
                 "Zucker": 15,
                 "Hefe": 10,
                 "Wasser in dl": 1.25,
@@ -521,7 +545,8 @@ Flammkuchen_L = {"Mehl": 220,
                 "Zubereitung 4": "Teig auf wenig Mehl ca. 2 mm dick auswallen (28-35 cm Ø). Auf das mit Backpapier belegte Blech legen, mit einer Gabel mehrmals dicht einstechen.",
                 "Zubereitung 5": "Belag: Teig mit Crème fraîche bestreichen, dabei rundum 1 cm Rand freilassen, Zwiebeln und Speck darauf verteilen. Würzen.",
                 "Zubereitung 6": "Flammkuchen auf der untersten Rille des vorheizten Ofens 13-16 Minuten backen.",
-                "Zubereitung 7": "Frischkäse darüberstreuen, garnieren."
+                "Zubereitung 7": "Frischkäse darüberstreuen, garnieren.",
+                "Bild": "flammkuchen.jpg"
 }
 
 Gefuellte_Zucchini_L = {"Rindshackfleisch": 500,
@@ -540,8 +565,8 @@ Gefuellte_Zucchini_L = {"Rindshackfleisch": 500,
                         "Rüebli": 200,
                 "Zubereitung 1": "Alle Zutaten gut mischen, würzen.",
                 "Zubereitung 2": "Zucchini rundum mit Bratbutter bestreichen, salzen, mit der Schnittfläche nach oben in die ausgebutterte Form legen. Fleisch-Masse darauf verteilen, andrücken. Bouillon in die Form giessen.",
-                "Zubereitung 3": "Zucchini rundum mit Bratbutter bestreichen, salzen, mit der Schnittfläche nach oben in die ausgebutterte Form legen. Fleisch-Masse darauf verteilen, andrücken. Bouillon in die Form giessen.",
-                "Zubereitung 4": "Herausnehmen, Rüebli grob geraffelt und Schnittlauch darauf verteilen, heiss servieren.",
+                "Zubereitung 3": "Herausnehmen, Rüebli grob geraffelt und Schnittlauch darauf verteilen, heiss servieren.",
+                "Bild": "gefuellte-zucchini.jpg"
 }
 
 Gyoza_L = {"Mehl": 250,
@@ -566,7 +591,8 @@ Gyoza_L = {"Mehl": 250,
                 "Zubereitung 3": "Füllen: Rondelle in die Hand nehmen, Rand mit wenig Wasser bestreichen. 1 TL Füllung in die Mitte geben. Zusammenklappen, Ränder gut zusammendrücken. Für eine schöne Optik den Teigrand mehrmals zusammenstossen, sodass ein wellenförmiges Muster entsteht.",
                 "Zubereitung 4": "Sauce: Alle Zutaten (Sojasacue, Zitroensaft und Chilli) mischen.",
                 "Zubereitung 5": "Gyoza in die Bratpfanne setzen, bei mittlerer Hitze in Bratcrème 1-2 Minuten braten, ohne sie zu wenden. Wasser beigeben, zugedeckt 5-7 Minuten dämpfen. Deckel entfernen, das Wasser verdampfen lassen.",
-                "Zubereitung 6": "Anrichten, mit Bundzwiebelkraut bestreuen. Gyoza in die Sauce tunken, geniessen."
+                "Zubereitung 6": "Anrichten, mit Bundzwiebelkraut bestreuen. Gyoza in die Sauce tunken, geniessen.",
+                "Bild": "gyoza.jpg"
 }
 
 Nachos_L = {"Tortilla Chips": 200,
@@ -577,7 +603,8 @@ Nachos_L = {"Tortilla Chips": 200,
                 "Tomatensauce": 100,
                 "Zubereitung 1": "Ofen auf 200°C Umluft/Heissluft vorheizen (Ober-/Unterhitze 220°C).",
                 "Zubereitung 2": "Die Hälfte der Chips in die Form geben, mit der Hälfte des Käses bestreuen. Einmal wiederholen. Tomaten und Bundzwiebeln über die Chips verteilen. Im oberen Drittel des vorgeheizten Ofens ca. 10 Minuten gratinieren.",
-                "Zubereitung 3": "Nachos mit Crème fraîche und Tomatensauce servieren."
+                "Zubereitung 3": "Nachos mit Crème fraîche und Tomatensauce servieren.",
+                "Bild": "nachos.jpg"
 }
 
 Knoblauch_L = {"Baguette in Stück": 1,
@@ -589,7 +616,8 @@ Knoblauch_L = {"Baguette in Stück": 1,
                 "Zubereitung 1": "Ofen auf 180°C Heissluft/Umluft vorheizen (Ober-/Unterhitze 200°C).",
                 "Zubereitung 2": "Das Brot lamellenförmig in ca. 1 cm Abständen leicht schräg einschneiden. Auf das mit Backpapier belegte Blech legen.",
                 "Zubereitung 3": "Knoblauchbutter: Butter, Knoblauch, Salz, Pfeffer und nach Belieben Kräuter mischen.",
-                "Zubereitung 4": "Broteinschnitte mit der Knoblauchbutter bestreichen. 8-10 Minuten im vorgeheizten Ofen knusprig backen."
+                "Zubereitung 4": "Broteinschnitte mit der Knoblauchbutter bestreichen. 8-10 Minuten im vorgeheizten Ofen knusprig backen.",
+                "Bild": "knoblauch_Brot.jpg"
 }
 
 Gebrannte_Mandeln_L = {"Wasser in dl": 0.5,
@@ -598,7 +626,8 @@ Gebrannte_Mandeln_L = {"Wasser in dl": 0.5,
                 "Mandeln": 100,
                 "Zubereitung 1": "Wasser und Zutaten bis und mit Zucker in einer Gusseisen- oder Chromstahlpfanne aufkochen.",
                 "Zubereitung 2": "Die ungeschälten, ganzen Mandeln zugeben und Flüssigkeit unter ständigem Rühren bei mittlerer Hitze einkochen, bis der Zucker trocken wird. Weiterrühren, bis der Zucker wieder leicht zu schmelzen beginnt und die Mandeln glänzend überzieht.",
-                "Zubereitung 3": "Mandeln sofort auf ein mit Backpapier ausgelegten Backblech verteilen und auskühlen lassen."
+                "Zubereitung 3": "Mandeln sofort auf ein mit Backpapier ausgelegten Backblech verteilen und auskühlen lassen.",
+                "Bild": "gebrannte_mandeln.jpeg"
 }
 
 Schokoladen_Cake_L = {"Rahm in dl": 1,
@@ -613,7 +642,8 @@ Schokoladen_Cake_L = {"Rahm in dl": 1,
                 "Zubereitung 1": "Rahm erhitzen, von der Platte ziehen, Schokolade beigeben, schmelzen.",
                 "Zubereitung 2": "Ofen auf 180°C Ober-/Unterhitze vorheizen (Heissluft/Umluft 160°C).",
                 "Zubereitung 3": "Butter rühren, bis sich Spitzchen bilden. Zucker und Salz dazurühren. Eier nach und nach beifügen und rühren, bis die Masse hell ist. Mehl mit Maisstärke und Backpulver mischen, zusammen mit der Rahm-Schokoladenmasse darunterrühren.",
-                "Zubereitung 4": "Teig in die mit Backpapier ausgekleidete Form geben. Auf der untersten Rille des vorgeheizten Ofens 50-60 Minuten backen. Herausnehmen, kurz in der Form stehen lassen, aus der Form nehmen, auf einem Kuchengitter auskühlen lassen."
+                "Zubereitung 4": "Teig in die mit Backpapier ausgekleidete Form geben. Auf der untersten Rille des vorgeheizten Ofens 50-60 Minuten backen. Herausnehmen, kurz in der Form stehen lassen, aus der Form nehmen, auf einem Kuchengitter auskühlen lassen.",
+                "Bild": "schokoladen_cake.jpg"
 }
 
 Gefuellte_Peperoni_L = {"Hackfleisch": 600,
@@ -633,7 +663,8 @@ Gefuellte_Peperoni_L = {"Hackfleisch": 600,
                 "Peperoni in Stück": 5,
                 "Gemüsebouillon in dl": 2.5,
                 "Zubereitung 1": "Fleisch in der Bratbutter anbraten. Zwiebel, Knoblauch und Tomatenpüree mitdämpfen. Mit Mehl bestreuen, kurz mitrösten. Rosinen, Tomaten und Rotwein oder/und Bouillon beigeben, etwas einkochen. Gruyère und Majoran daruntermischen, würzen.",
-                "Zubereitung 2": "Peperonideckel wegschneiden, Peperoni entkernen und in die vorbereitete Form stellen. Hackfleisch einfüllen, Deckel auflegen und mit Butterflocken belegen. Bouillon in die Form giessen. In der Mitte des auf 200°C vorgeheizten Ofens 30-35 Minuten backen. Herausnehmen, garnieren."
+                "Zubereitung 2": "Peperonideckel wegschneiden, Peperoni entkernen und in die vorbereitete Form stellen. Hackfleisch einfüllen, Deckel auflegen und mit Butterflocken belegen. Bouillon in die Form giessen. In der Mitte des auf 200°C vorgeheizten Ofens 30-35 Minuten backen. Herausnehmen, garnieren.",
+                "Bild": "gefuellte_peperoni.jpg"
 }
 
 Lauch_Speck_Waehe_L = {"Mehl": 250,
@@ -656,7 +687,8 @@ Lauch_Speck_Waehe_L = {"Mehl": 250,
                 "Zubereitung 3": "Mit den Fingern fein reiben, bis alles gleichmässig krümelig ist.",
                 "Zubereitung 4": "Eine Mulde formen, Wasser und Essig hineingiessen.",
                 "Zubereitung 5": "Mit der Teigkarte zu einem Teig zusammenfügen, nicht kneten. Zwischen 2 Backpapier-Bogen legen, etwas flach drücken, auf die Grösse des Bleches auswallen. Auf das Blech legen, überlappendes Papier samt Teig mit der Schere wegschneiden. Oberes Backpapier entfernen. Rand ausbessern. 30 Minuten kühl stellen.",
-                "Zubereitung 6": "Ofen auf 200°C Ober-/Unterhitze vorheizen (Heissluft/Umluft ca. 180°C). Teig mit einer Gabel dicht einstechen. 30 Minuten kühl stellen. Belag: Speckwürfel ohne Fettzugabe in der Bratpfanne anbraten, Lauch dazugeben und 2 Minuten mitdämpfen. Restliche Zutaten vermischen. Speckwürfel und Lauch darunterziehen. Den Belag auf den Teigboden verteilen. Die Wähe in der unteren Hälfte des vorgeheizten Ofens 30-40 Minuten backen."
+                "Zubereitung 6": "Ofen auf 200°C Ober-/Unterhitze vorheizen (Heissluft/Umluft ca. 180°C). Teig mit einer Gabel dicht einstechen. 30 Minuten kühl stellen. Belag: Speckwürfel ohne Fettzugabe in der Bratpfanne anbraten, Lauch dazugeben und 2 Minuten mitdämpfen. Restliche Zutaten vermischen. Speckwürfel und Lauch darunterziehen. Den Belag auf den Teigboden verteilen. Die Wähe in der unteren Hälfte des vorgeheizten Ofens 30-40 Minuten backen.",
+                "Bild": "lauch-speck-waehe.jpg"
 }
 
 Butter_Chicken_L = {"Hähnchenbrustfilet in Stücke": 500,
@@ -678,7 +710,8 @@ Butter_Chicken_L = {"Hähnchenbrustfilet in Stücke": 500,
                     "Zubereitung 3": "In einer Pfanne die Butter schmelzen lassen. Die gehackten Tomaten hinzufügen und köcheln lassen, bis sie weich sind und sich die Butter vom Tomatenmark trennt.","Zubereitung 4": "Die gebackenen Hähnchenstücke zur Tomaten-Butter-Mischung geben und gut vermengen.",
                     "Zubereitung 5": "Die Sahne und den Honig hinzufügen und weitere 10 Minuten köcheln lassen, bis die Sauce eingedickt ist.",
                     "Zubereitung 6": "Mit Salz und Pfeffer abschmecken und mit frischem Koriander garnieren.",
-                    "Zubereitung 7": "Heiß mit Reis oder Naan-Brot servieren."
+                    "Zubereitung 7": "Heiß mit Reis oder Naan-Brot servieren.",
+                    "Bild": "butter-chicken.jpg"
 }
 
 Chicken_Tikka_Masala_L = {"Pouletgeschnetzeltes": 500,
@@ -702,7 +735,8 @@ Chicken_Tikka_Masala_L = {"Pouletgeschnetzeltes": 500,
                           "Zubereitung 5": "Die gebackenen Pouletgeschnetzeltes zur Tomaten-Zwiebel-Mischung geben und gut vermengen.",
                           "Zubereitung 6": "Die Sahne hinzufügen und weitere 10 Minuten köcheln lassen, bis die Sauce eingedickt ist.",
                           "Zubereitung 7": "Mit Salz und Pfeffer abschmecken und mit frischen Korianderblättern garnieren.",
-                          "Zubereitung 8": "Heiß mit Reis oder Naan-Brot servieren."
+                          "Zubereitung 8": "Heiß mit Reis oder Naan-Brot servieren.",
+                          "Bild": "chicken-tikka-masala.jpg"
 }
 
 Chicken_Korma_L = {"Hähnchenbrust in Würfel": 500,
@@ -721,7 +755,8 @@ Chicken_Korma_L = {"Hähnchenbrust in Würfel": 500,
                   "Zubereitung 2": "In einem Topf das Ghee oder Öl erhitzen und die gehackten Zwiebeln goldbraun braten.",
                   "Zubereitung 3": "Die marinierten Hähnchenwürfel hinzufügen und unter Rühren anbraten, bis sie goldbraun sind.",
                   "Zubereitung 4": "Die Kokosnussmilch hinzufügen und zum Kochen bringen. Hitze reduzieren und köcheln lassen, bis das Hähnchen gar ist.",
-                  "Zubereitung 5": "Das Mandel- oder Cashewmus unterrühren und weitere 5 Minuten köcheln lassen, bis die Sauce leicht eingedickt ist."
+                  "Zubereitung 5": "Das Mandel- oder Cashewmus unterrühren und weitere 5 Minuten köcheln lassen, bis die Sauce leicht eingedickt ist.",
+                  "Bild": "pakora.jpg"
 }
 
 Pakora_L = {"Kichererbsenmehl": 150,
@@ -744,7 +779,8 @@ Pakora_L = {"Kichererbsenmehl": 150,
             "Zubereitung 4": "Alle gehackten Zutaten, Korianderblätter, Kreuzkümmelpulver, Korianderpulver, Chilipulver, Backpulver und Salz zum Teig hinzufügen und gut vermischen.",
             "Zubereitung 5": "In einem Topf Öl zum Frittieren erhitzen. Den Teig löffelweise vorsichtig in das heiße Öl geben und goldbraun frittieren. Dabei sicherstellen, dass die Pakoras von allen Seiten gleichmäßig gebräunt werden.",
             "Zubereitung 6": "Die fertigen Pakoras mit einem Schaumlöffel aus dem Öl nehmen und auf Küchenpapier abtropfen lassen, um überschüssiges Öl abzutropfen.",
-            "Zubereitung 7": "Heiß servieren, idealerweise mit einem Dip aus Joghurt und Minze oder mit einem Chutney."
+            "Zubereitung 7": "Heiß servieren, idealerweise mit einem Dip aus Joghurt und Minze oder mit einem Chutney.",
+            "Bild": "pakora.jpg"
 }
 
 Vegetarische_Samosa_L = {"Mehl": 250,
@@ -770,7 +806,8 @@ Vegetarische_Samosa_L = {"Mehl": 250,
                          "Zubereitung 7": "Den Teig in kleine Bälle teilen und jedes Stück zu einem dünnen Kreis ausrollen. Den Kreis halbieren, um Halbmonde zu bilden.",
                          "Zubereitung 8": "Die Kartoffel-Erbsen-Mischung auf die eine Hälfte jedes Kreises legen, dann die andere Hälfte darüberklappen, um Dreiecke zu formen. Die Ränder gut verschließen.",
                          "Zubereitung 9": "Öl in einem Topf erhitzen und die Samosas darin goldbraun und knusprig frittieren. Auf Küchenpapier abtropfen lassen.",
-                         "Zubereitung 10": "Heiß servieren, idealerweise mit einem Chutney oder einer Sauce nach Wahl."
+                         "Zubereitung 10": "Heiß servieren, idealerweise mit einem Chutney oder einer Sauce nach Wahl.",
+                         "Bild": "veg_Samosa.jpg"
 }
 
 Paneer_Tikka_L = {"Paneer": 300,
@@ -783,12 +820,14 @@ Paneer_Tikka_L = {"Paneer": 300,
                   "Salz nach Geschmack": "Nach Bedarf",
                   "Gemischtes Gemüse nach Wahl in Stück": "z.B. Paprika, Zwiebeln, Tomaten",
                   "Pflanzenöl zum Braten": "Nach Bedarf",
+                  "Holzspiess Anzahl": 12,
                   "Zubereitung 1": "Paneer in Würfel schneiden und beiseite stellen.",
                   "Zubereitung 2": "In einer Schüssel Joghurt, Zitronensaft, Ingwer-Knoblauch-Paste, Garam Masala, Kurkuma, Chilipulver und Salz vermischen, um eine Marinade zu machen.",
                   "Zubereitung 3": "Die Paneerwürfel in die Marinade geben und gut vermengen, um sicherzustellen, dass alle Würfel gleichmäßig bedeckt sind. Mindestens 30 Minuten im Kühlschrank marinieren lassen.",
-                  "Zubereitung 4": "Gemüse nach Wahl in Stücke schneiden.",
+                  "Zubereitung 4": "Gemüse nach Wahl in Stücke schneiden, mit Paneer und Gemüse einen Spiess machen (3 pro Person) oder einzeln anbraten.",
                   "Zubereitung 5": "Eine Pfanne mit etwas Öl erhitzen und die marinierten Paneerwürfel hinzufügen. Braten, bis sie von allen Seiten goldbraun und leicht knusprig sind.",
                   "Zubereitung 6": "Das Gemüse in die Pfanne geben und mit den Paneerwürfeln vermischen. Etwa 5-7 Minuten braten, bis das Gemüse zart ist.",
+                  "Bild": "Paneer-Tikka.jpg"
 }
 
 Kheer_L = {"Milch in dl": 10,
@@ -804,7 +843,8 @@ Kheer_L = {"Milch in dl": 10,
            "Zubereitung 3": "Zucker, Rosinen, gehackte Mandeln und Pistazien hinzufügen. Gut umrühren und einige Minuten weiter köcheln lassen.",
            "Zubereitung 4": "Nach Geschmack Gewürze wie Kardamom und Zimt hinzufügen.",
            "Zubereitung 5": "Die Safranfäden in etwas warmem Wasser einweichen und der Kheer-Mischung hinzufügen.",
-           "Zubereitung 6": "Die Kheer heiß oder gekühlt servieren. Optional mit zusätzlichen gehackten Nüssen und einem Hauch von Safran garnieren."
+           "Zubereitung 6": "Die Kheer heiß oder gekühlt servieren. Optional mit zusätzlichen gehackten Nüssen und einem Hauch von Safran garnieren.",
+           "Bild": "kheer.jpg"
 }
 
 Gulab_Jamun_L = {"Milchpulver in Anzahl Tassen": "eine",
@@ -822,7 +862,8 @@ Gulab_Jamun_L = {"Milchpulver in Anzahl Tassen": "eine",
                  "Zubereitung 4": "In einem Topf Zucker, Wasser und gemahlenen Kardamom aufkochen, bis der Zucker vollständig aufgelöst ist, und dann den Rosensirup hinzufügen.",
                  "Zubereitung 5": "Die Kugeln in das kochende Zuckerwasser geben und bei mittlerer Hitze köcheln lassen, bis sie sich verdoppelt haben und goldbraun sind.",
                  "Zubereitung 6": "Die Gulab Jamun aus dem Sirup nehmen und auf einem Teller abkühlen lassen.",
-                 "Zubereitung 7": "Gulab Jamun warm oder bei Raumtemperatur servieren. Optional mit einem Hauch von zusätzlichem Rosensirup garnieren."
+                 "Zubereitung 7": "Gulab Jamun warm oder bei Raumtemperatur servieren. Optional mit einem Hauch von zusätzlichem Rosensirup garnieren.",
+                 "Bild": "gulab_jamun"
 }
 
 Rasmalai_L = {"Vollmilch in dl": 10,
@@ -839,7 +880,8 @@ Rasmalai_L = {"Vollmilch in dl": 10,
               "Zubereitung 3": "Den Paneer auf einer sauberen Oberfläche kneten, bis er weich und geschmeidig ist. Dann kleine Kugeln formen und flach drücken, um Rasgullas zu machen.",
               "Zubereitung 4": "In einem Topf Wasser und Zucker zum Kochen bringen. Die Rasgullas hinzufügen und bei niedriger Hitze 15-20 Minuten kochen lassen.",
               "Zubereitung 5": "In einem separaten Topf Milch, Zucker, gemahlenen Kardamom und Safran zum Kochen bringen. Die gekochten Rasgullas hinzufügen und weitere 10 Minuten köcheln lassen.",
-              "Zubereitung 6": "Den Rasmalai aus dem Sirup nehmen und in einer Schüssel servieren. Vor dem Servieren kühl stellen und mit Safranfäden garnieren."
+              "Zubereitung 6": "Den Rasmalai aus dem Sirup nehmen und in einer Schüssel servieren. Vor dem Servieren kühl stellen und mit Safranfäden garnieren.",
+              "Bild": "rasmalai.jpg"
 }
 
 Jamaican_Patties_L = {"Mehl": 250,
@@ -862,7 +904,8 @@ Jamaican_Patties_L = {"Mehl": 250,
                       "Zubereitung 3": "Olivenöl in einer Pfanne erhitzen, Zwiebeln, Knoblauch und Thymian anbraten.",
                       "Zubereitung 4": "Hackfleisch hinzufügen und mit Curry Pulver, Paprika Pulver, Piment, Zucker und Salz würzen.",
                       "Zubereitung 5": "Teig ausrollen und in Kreise schneiden, Füllung in die Mitte geben, zusammenklappen und die Ränder festdrücken.",
-                      "Zubereitung 6": "Mit verquirltem Ei bestreichen und im vorgeheizten Ofen bei 180 Grad 25 Minuten backen."
+                      "Zubereitung 6": "Mit verquirltem Ei bestreichen und im vorgeheizten Ofen bei 180 Grad 25 Minuten backen.",
+                      "Bild": "jamaican__patties.jpg"
 }
 
 Mango_Salat_L = {"Mango in Stück": 2,
@@ -876,7 +919,8 @@ Mango_Salat_L = {"Mango in Stück": 2,
                  "Zubereitung 1": "Mango schälen und in kleine Würfel schneiden. Paprika und rote Zwiebel ebenfalls klein würfeln.",
                  "Zubereitung 2": "Alle Zutaten in eine Schüssel geben.",
                  "Zubereitung 3": "Limettensaft, Olivenöl, Salz und Pfeffer hinzufügen und gut vermengen.",
-                 "Zubereitung 4": "Mit Korianderblättern garnieren und servieren."
+                 "Zubereitung 4": "Mit Korianderblättern garnieren und servieren.",
+                 "Bild": "mangosalat.jpg"
 }
 
 Karibische_Garnelen_L = {"Garnelen": 500,
@@ -891,7 +935,8 @@ Karibische_Garnelen_L = {"Garnelen": 500,
                          "Zubereitung 2": "Olivenöl in einer Pfanne erhitzen und den Knoblauch kurz anbraten.",
                          "Zubereitung 3": "Garnelen hinzufügen und 2-3 Minuten anbraten, bis sie rosa und durchgegart sind.",
                          "Zubereitung 4": "Mit Limettensaft, Paprikapulver, Salz und Pfeffer würzen. Gut vermengen.",
-                         "Zubereitung 5": "Mit frischer Petersilie bestreuen und sofort servieren."
+                         "Zubereitung 5": "Mit frischer Petersilie bestreuen und sofort servieren.",
+                         "Bild": "karribische_garnelen.jpg"
 }
 
 Reis_und_Bohnen_L = {"Langkornreis": 300,
@@ -912,7 +957,8 @@ Reis_und_Bohnen_L = {"Langkornreis": 300,
                      "Zubereitung 4": "Kokosmilch und Gemüsebrühe dazugießen. Bohnen abgießen und hinzufügen.",
                      "Zubereitung 5": "Thymian, Piment, Salz und Pfeffer hinzufügen und alles gut vermischen.",
                      "Zubereitung 6": "Zum Kochen bringen, dann die Hitze reduzieren und zugedeckt etwa 20 Minuten köcheln lassen, bis der Reis gar ist und die Flüssigkeit aufgenommen wurde.",
-                     "Zubereitung 7": "Gelegentlich umrühren und bei Bedarf mehr Brühe hinzufügen. Warm servieren."
+                     "Zubereitung 7": "Gelegentlich umrühren und bei Bedarf mehr Brühe hinzufügen. Warm servieren.",
+                     "Bile": "Reis_Bohnen.jpg"
 }
 
 Gemüsepfanne_L = {"Zucchini in Stück": 2,
@@ -934,10 +980,11 @@ Gemüsepfanne_L = {"Zucchini in Stück": 2,
                   "Zubereitung 3": "Zucchini, Paprika und Aubergine hinzufügen und etwa 5 Minuten anbraten.",
                   "Zubereitung 4": "Kokosmilch und Gemüsebrühe dazugießen. Kreuzkümmel, Kurkuma, Salz und Pfeffer hinzufügen und alles gut vermischen.",
                   "Zubereitung 5": "Zum Kochen bringen, dann die Hitze reduzieren und etwa 15 Minuten köcheln lassen, bis das Gemüse weich ist.",
-                  "Zubereitung 6": "Gelegentlich umrühren und bei Bedarf mehr Brühe hinzufügen. Mit frischem Koriander bestreuen und warm servieren."
+                  "Zubereitung 6": "Gelegentlich umrühren und bei Bedarf mehr Brühe hinzufügen. Mit frischem Koriander bestreuen und warm servieren.",
+                  "Bild": "gemuesepfanne.jpg"
 }
 
-Jerk_Gemüse_L = { "Süßkartoffeln in Stück": 2,
+Jerk_Gemüse_L = {"Süßkartoffeln in Stück": 2,
                  "Karotten in Stück": 3,
                  "Paprika in Stück": 2,
                  "Zucchini in Stück": 2,
@@ -947,7 +994,7 @@ Jerk_Gemüse_L = { "Süßkartoffeln in Stück": 2,
                  "Frischer Thymian in TL": 2,
                  "Gemahlener Piment in TL": 1,
                  "Zimt in TL": 0.5,
-                 "Muskat prisen": "vier",
+                 "Muskat prisen": 4,
                  "Cayennepfeffer": 5,
                  "Salz": 15,
                  "Pfeffer": 5,
@@ -960,7 +1007,9 @@ Jerk_Gemüse_L = { "Süßkartoffeln in Stück": 2,
                  "Zubereitung 5": "Das gewürzte Gemüse auf ein Backblech legen und bei 200 Grad Celsius ca. 25-30 Minuten im Ofen rösten, bis es gar und leicht gebräunt ist.",
                  "Zubereitung 6": "In der Zwischenzeit Kokosmilch und Limettensaft in einem kleinen Topf erhitzen und leicht köcheln lassen.",
                  "Zubereitung 7": "Das geröstete Gemüse aus dem Ofen nehmen und mit der Kokos-Limetten-Sauce übergießen.",
-                 "Zubereitung 8": "Sofort servieren und genießen."}
+                 "Zubereitung 8": "Sofort servieren und genießen.",
+                 "Bild": "jerkgemüse.jpg"
+}
 
 Bananen_Fritters_L = {"Reife Bananen in Stück": 3,
                       "Mehl": 120,
@@ -977,7 +1026,8 @@ Bananen_Fritters_L = {"Reife Bananen in Stück": 3,
                       "Zubereitung 3": "Die trockenen Zutaten zu den zerdrückten Bananen geben und gut vermengen.",
                       "Zubereitung 4": "Milch und Vanilleextrakt hinzufügen und zu einem glatten Teig verrühren.",
                       "Zubereitung 5": "Pflanzenöl in einer Pfanne erhitzen. Den Teig esslöffelweise ins heiße Öl geben und goldbraun frittieren.",
-                      "Zubereitung 6": "Die Fritters auf Küchenpapier abtropfen lassen und vor dem Servieren mit Puderzucker bestäuben."
+                      "Zubereitung 6": "Die Fritters auf Küchenpapier abtropfen lassen und vor dem Servieren mit Puderzucker bestäuben.",
+                      "Bild": "Banana-Fritters.jpg"
 }
 
 Kokosnuss_Reispudding = {"Weißer Reis": 150,
@@ -993,7 +1043,8 @@ Kokosnuss_Reispudding = {"Weißer Reis": 150,
                          "Zubereitung 2": "Kokosmilch, Milch, Zucker, Vanilleextrakt, Zimt und Salz in den Topf geben und zum Kochen bringen.",
                          "Zubereitung 3": "Den Reis hinzufügen und bei niedriger Hitze köcheln lassen, bis der Reis weich und die Mischung cremig ist, etwa 25-30 Minuten.",
                          "Zubereitung 4": "Die Kokosraspeln einrühren und den Pudding etwas abkühlen lassen.",
-                         "Zubereitung 5": "Den Pudding in Schüsseln füllen und mit Mangostücken garnieren."
+                         "Zubereitung 5": "Den Pudding in Schüsseln füllen und mit Mangostücken garnieren.",
+                         "Bild": "Mango-Reispudding.jpg"
 }
 
 Ananas_Cake_L = {"Ananasringe in Stück": 6,
@@ -1015,7 +1066,8 @@ Ananas_Cake_L = {"Ananasringe in Stück": 6,
                  "Zubereitung 6": "Die Mehlmischung abwechselnd mit der Milch zur Eier-Zucker-Mischung geben und gut verrühren.",
                  "Zubereitung 7": "Den Teig über die Ananasringe gießen und gleichmäßig verteilen.",
                  "Zubereitung 8": "Den Kuchen im vorgeheizten Ofen etwa 35-40 Minuten backen, bis er goldbraun ist und ein Zahnstocher sauber herauskommt.",
-                 "Zubereitung 9": "Den Kuchen etwas abkühlen lassen, dann auf eine Servierplatte stürzen, sodass die Ananasringe oben sind."
+                 "Zubereitung 9": "Den Kuchen etwas abkühlen lassen, dann auf eine Servierplatte stürzen, sodass die Ananasringe oben sind.",
+                 "Bild": "ananas_cake.jpg"
 }
 
 Kimchi_L = {"Chinakohl": 1000,
@@ -1034,29 +1086,8 @@ Kimchi_L = {"Chinakohl": 1000,
             "Zubereitung 4": "Den Chinakohl gut abspülen und abtropfen lassen.",
             "Zubereitung 5": "Knoblauch, Ingwer, Fischsauce und Chilipulver zu einer Paste vermischen.",
             "Zubereitung 6": "Die Paste mit den geschnittenen Gemüse vermischen und alles gut in den Chinakohl einmassieren.",
-            "Zubereitung 7": "Das Kimchi in ein Einmachglas geben, dabei fest drücken, um Luftblasen zu entfernen. 1-2 Tage bei Raumtemperatur fermentieren lassen und dann im Kühlschrank aufbewahren."
-}
-
-Japchae_L = {"Süßkartoffelglasnudeln": 200,
-             "Spinat": 200,
-             "Karotten in Stück": 2,
-             "Zwiebel in Stück": 1,
-             "Paprika in Stück": 1,
-             "Pilze": 100,
-             "Sesamöl in EL": 2,
-             "Sojasauce in EL": 4,
-             "Zucker in EL": 2,
-             "Sesamsamen in EL": 2,
-             "Knoblauch anzahl Zehen": 2,
-             "Pflanzenöl in EL": 2,
-             "Zubereitung 1": "Die Glasnudeln nach Packungsanweisung kochen, abtropfen lassen und mit 1 EL Sesamöl vermischen.",
-             "Zubereitung 2": "Den Spinat blanchieren, abtropfen lassen und grob hacken.",
-             "Zubereitung 3": "Karotten, Zwiebel und Paprika in feine Streifen schneiden, Pilze in Scheiben schneiden.",
-             "Zubereitung 4": "Das Pflanzenöl in einer Pfanne erhitzen und die Zwiebeln und den Knoblauch anbraten, bis sie weich sind.",
-             "Zubereitung 5": "Karotten, Paprika und Pilze hinzufügen und weiter braten, bis das Gemüse gar ist.",
-             "Zubereitung 6": "Spinat und Glasnudeln hinzufügen und gut vermischen.",
-             "Zubereitung 7": "Sojasauce, Zucker und Sesamsamen hinzufügen und alles gut vermischen.",
-             "Zubereitung 8": "Mit Sesamöl abschmecken und warm oder kalt servieren."
+            "Zubereitung 7": "Das Kimchi in ein Einmachglas geben, dabei fest drücken, um Luftblasen zu entfernen. 1-2 Tage bei Raumtemperatur fermentieren lassen und dann im Kühlschrank aufbewahren.",
+            "Bild": "kimchi.jpg"
 }
 
 Pajeon_L = {"Mehl": 200,
@@ -1076,7 +1107,9 @@ Pajeon_L = {"Mehl": 200,
             "Zubereitung 5": "Den Pfannkuchen bei mittlerer Hitze braten, bis er auf beiden Seiten goldbraun und knusprig ist.",
             "Zubereitung 6": "Den Pfannkuchen auf einen Teller legen und warmhalten. Mit dem restlichen Teig und den Frühlingszwiebeln wiederholen.",
             "Zubereitung 7": "Für die Sauce Sojasauce, Reisessig, Sesamöl und Zucker in einer kleinen Schüssel vermischen.",
-            "Zubereitung 8": "Den Pfannkuchen in Stücke schneiden und mit der Sauce servieren."}
+            "Zubereitung 8": "Den Pfannkuchen in Stücke schneiden und mit der Sauce servieren.",
+            "Bild": "pajeon.jpeg"
+}
 
 Bibimbap_L = {"Gekochter Reis Anzahl Tassen": 4,
               "Gemüse (Karotten, Spinat, Zucchini, Gurken, Shiitake-Pilze, etc.) in Stücke": "nach Bedarf",
@@ -1092,7 +1125,9 @@ Bibimbap_L = {"Gekochter Reis Anzahl Tassen": 4,
               "Zubereitung 2": "Das Gemüse waschen, schneiden und separat vorbereiten.",
               "Zubereitung 3": "Das Rinderhackfleisch in einer Pfanne anbraten, dann mit Sojasauce, Zucker, gehacktem Knoblauch und Sesamöl würzen.",
               "Zubereitung 4": "Eier in einer Pfanne zu Spiegeleiern braten.",
-              "Zubereitung 5": "Den gekochten Reis in Schüsseln geben. Das gebratene Rinderhackfleisch, das Gemüse und das Spiegelei darüber anrichten. Mit Sesamsamen bestreuen und mit Kimchi servieren."}
+              "Zubereitung 5": "Den gekochten Reis in Schüsseln geben. Das gebratene Rinderhackfleisch, das Gemüse und das Spiegelei darüber anrichten. Mit Sesamsamen bestreuen und mit Kimchi servieren.",
+              "Bild": "bibimbap.png"
+              }
 
 Japchae_L = {"Süßkartoffelglasnudeln": 200,
              "Rindfleisch": 300,
@@ -1110,7 +1145,8 @@ Japchae_L = {"Süßkartoffelglasnudeln": 200,
              "Zubereitung 2": "Das in Streifen geschnittene Rindfleisch in einer Pfanne anbraten, dann mit Sojasauce, Zucker und gehacktem Knoblauch würzen. Beiseite stellen.",
              "Zubereitung 3": "Das Karotten, Champignons und Zwiebeln in Streifen schneiden, Frühlingszwiebeln hacken und zusammen mit Spinat separat in der Pfanne anbraten, dann ebenfalls mit Sojasauce, Zucker und Sesamöl würzen.",
              "Zubereitung 4": "Die gekochten Nudeln und das Gemüse mit dem Rindfleisch vermengen und alles gut durchschwenken.",
-             "Zubereitung 5": "Mit Sesamsamen und Frühlingszwiebeln garnieren und servieren."
+             "Zubereitung 5": "Mit Sesamsamen und Frühlingszwiebeln garnieren und servieren.",
+             "Bild": "japchae.jpg"
 }
 
 Kimichi_Jjigae_L = {"Kimchi in Stücke": 500,
@@ -1126,7 +1162,9 @@ Kimichi_Jjigae_L = {"Kimchi in Stücke": 500,
                     "Zubereitung 2": "Knoblauch hinzufügen und kurz anbraten, dann das Kimchi (in Stücken) dazugeben und alles zusammen weiterbraten.",
                     "Zubereitung 3": "Gochujang und Sojasauce hinzufügen und umrühren.",
                     "Zubereitung 4": "Gemüsebrühe hinzufügen und zum Kochen bringen. Dann den Tofu dazugeben und alles köcheln lassen, bis das Fleisch durchgegart ist und das Kimchi weich ist.",
-                    "Zubereitung 5": "Mit Frühlingszwiebeln garnieren und servieren."}
+                    "Zubereitung 5": "Mit Frühlingszwiebeln garnieren und servieren.",
+                    "Bild": "kimchijjigae.jpg"
+}
 
 Hotteok_L = {"Weizenmehl": 320,
              "Milch in dl": 2.5,
@@ -1144,7 +1182,8 @@ Hotteok_L = {"Weizenmehl": 320,
              "Zubereitung 5": "Nun die Hände mit wenig Öl benetzen, aus dem Teig Stücke abzupfen und zu kleinen Fladen formen",
              "Zubereitung 6": "Jeden Fladen in die Hand nehmen und einen Esslöffel Nuss-Füllung in seine Mitte geben. Die Ränder nach innen einklappen, gut andrücken und den gefüllten Teig danach wieder flach formen.",
              "Zubereitung 8": "Jetzt das Öl in einer Pfanne erhitzen und die Hotteok darin auf beiden Seiten jeweils etwa 30 Sekunden braten. Dabei zwischendurch immer wieder mit dem Pfannenwender flach gegen den Pfannenboden drücken.",
-             "Zubereitung 9": "Dann einen Deckel auflegen, die Pfannkuchen noch eine 1 Minute in der Pfanne belassen und anschließend warm servieren."
+             "Zubereitung 9": "Dann einen Deckel auflegen, die Pfannkuchen noch eine 1 Minute in der Pfanne belassen und anschließend warm servieren.",
+             "Bild": "Hotteok.jpg"
 }
 
 Yakwa_L = {"Weizenmehl": 200,
@@ -1157,7 +1196,9 @@ Yakwa_L = {"Weizenmehl": 200,
            "Zubereitung 2": "Den Teig dünn ausrollen und in kleine Rechtecke schneiden.",
            "Zubereitung 3": "Die Rechtecke in heißem Öl goldbraun frittieren.",
            "Zubereitung 4": "Auf Küchenpapier abtropfen lassen und abkühlen lassen.",
-           "Zubereitung 5": "Warm servieren."}
+           "Zubereitung 5": "Warm servieren.",
+           "Bild": "yakwa.jpeg"
+}
 
 Patatas_Bravas_L = {"Kartoffeln": 500,
                     "Olivenöl in ml": 45,
@@ -1167,7 +1208,9 @@ Patatas_Bravas_L = {"Kartoffeln": 500,
                       "Zubereitung 1": "Die Kartoffeln schälen und in Würfel schneiden.",
                       "Zubereitung 2": "Das Olivenöl in einer Pfanne erhitzen und die Kartoffelwürfel goldbraun braten.",
                       "Zubereitung 3": "Den Knoblauch fein hacken und zusammen mit dem Paprikapulver und Salz über die Kartoffeln streuen.",
-                      "Zubereitung 4": "Alles gut vermischen und heiß servieren."}
+                      "Zubereitung 4": "Alles gut vermischen und heiß servieren.",
+                      "Bild": "patatas_bravas.jpg"
+}
 
 Gazpacho_L = {"Tomaten in Stück": 10,
               "Gurke in Stück": 1,
@@ -1181,7 +1224,8 @@ Gazpacho_L = {"Tomaten in Stück": 10,
               "Zubereitung 1": "Das Gemüse grob schneiden und zusammen mit dem Brot in einen Mixer geben.",
               "Zubereitung 2": "Olivenöl, Essig und Salz hinzufügen.",
               "Zubereitung 3": "Alles fein pürieren, bis eine glatte Suppe entsteht.",
-              "Zubereitung 4": "Die Gazpacho für einige Stunden im Kühlschrank kalt stellen und gekühlt servieren."
+              "Zubereitung 4": "Die Gazpacho für einige Stunden im Kühlschrank kalt stellen und gekühlt servieren.",
+              "Bild": "gazpacho.jpeg"
 }
 
 
@@ -1197,7 +1241,8 @@ Tortilla_Espanola_L =  {"Kartoffeln in Stück": 3,
                         "Zubereitung 5": "Die Kartoffeln und Zwiebeln abtropfen lassen und zu den Eiern geben.",
                         "Zubereitung 6": "Alles gut vermischen und in derselben Pfanne erneut bei mittlerer Hitze stocken lassen.",
                         "Zubereitung 7": "Die Tortilla vorsichtig wenden und von der anderen Seite goldbraun braten.",
-                        "Zubereitung 8": "Auf einem Teller servieren und in Stücke schneiden."
+                        "Zubereitung 8": "Auf einem Teller servieren und in Stücke schneiden.",
+                        "Bild": "TortillaEspanola.jpeg"
 }
 
 Pollo_al_Ajillo_L = {"Hähnchenschenkel Anzahl": 4,
@@ -1212,7 +1257,8 @@ Pollo_al_Ajillo_L = {"Hähnchenschenkel Anzahl": 4,
                      "Zubereitung 3": "Das Olivenöl in einer Pfanne erhitzen und die Hähnchenschenkel darin von beiden Seiten goldbraun anbraten.",
                      "Zubereitung 4": "Den Knoblauch und die Rosmarinzweige hinzufügen und kurz mitbraten.",
                      "Zubereitung 5": "Mit Weißwein ablöschen und bei niedriger Hitze köcheln lassen, bis das Hähnchen gar ist und die Sauce eingedickt ist.",
-                     "Zubereitung 6": "Mit Salz und Pfeffer abschmecken und heiß servieren."
+                     "Zubereitung 6": "Mit Salz und Pfeffer abschmecken und heiß servieren.",
+                     "Bild": "Pollo_al_Ajillo.png"
 }
 
 Pisto_Manchego_L = {"Zucchini Anzahl": 2,
@@ -1231,7 +1277,8 @@ Pisto_Manchego_L = {"Zucchini Anzahl": 2,
                     "Zubereitung 4": "Das restliche Gemüse hinzufügen und bei mittlerer Hitze dünsten, bis es weich ist.",
                     "Zubereitung 5": "Die Eier verquirlen und über das Gemüse gießen.",
                     "Zubereitung 6": "Alles vermengen und bei niedriger Hitze stocken lassen, bis die Eier gestockt sind.",
-                    "Zubereitung 7": "Mit Salz und Pfeffer abschmecken und heiß servieren."
+                    "Zubereitung 7": "Mit Salz und Pfeffer abschmecken und heiß servieren.",
+                    "Bild": "pisto-manchego.jpg"
 }
 
 Flan_de_Huevo = {"Eier in Stück": 6,
@@ -1244,7 +1291,8 @@ Flan_de_Huevo = {"Eier in Stück": 6,
                  "Zubereitung 4": "Die Mischung in die vorbereitete Backform gießen.",
                  "Zubereitung 5": "Die Backform in ein größeres Gefäß stellen und heißes Wasser hinzufügen, sodass die Backform zu etwa einem Drittel im Wasser steht.",
                  "Zubereitung 6": "Im vorgeheizten Ofen bei 180°C etwa 45-50 Minuten backen, bis der Flan gestockt ist.",
-                 "Zubereitung 7": "Aus dem Ofen nehmen und abkühlen lassen, dann vorsichtig stürzen und kalt servieren."
+                 "Zubereitung 7": "Aus dem Ofen nehmen und abkühlen lassen, dann vorsichtig stürzen und kalt servieren.",
+                 "Bild": "flan-de-huevo.jpg"
 }
 
 Churros_L = {"Mehl": 250,
@@ -1259,7 +1307,8 @@ Churros_L = {"Mehl": 250,
              "Zubereitung 4": "Das Öl in einem Topf erhitzen.",
              "Zubereitung 5": "Die Churros in das heiße Öl spritzen und goldbraun frittieren.",
              "Zubereitung 6": "Herausnehmen und auf Küchenpapier abtropfen lassen, dann in Zimt-Zucker wenden.",
-             "Zubereitung 7": "Heiß servieren, idealerweise mit heißer Schokolade zum Dippen."
+             "Zubereitung 7": "Heiß servieren, idealerweise mit heißer Schokolade zum Dippen.",
+             "Bild": "churros.jpg"
 }
 
 Santiago_Torte_L = {"Mandeln": 200,
@@ -1275,7 +1324,8 @@ Santiago_Torte_L = {"Mandeln": 200,
                     "Zubereitung 5": "Das steif geschlagene Eiweiß vorsichtig unter die Mandelmasse heben.",
                     "Zubereitung 6": "Die Masse in die vorbereitete Springform füllen und glatt streichen.",
                     "Zubereitung 7": "Im vorgeheizten Ofen etwa 25-30 Minuten backen, bis die Torte goldbraun ist und sich fest anfühlt.",
-                    "Zubereitung 8": "Aus dem Ofen nehmen und abkühlen lassen, dann mit Puderzucker bestreuen und servieren."
+                    "Zubereitung 8": "Aus dem Ofen nehmen und abkühlen lassen, dann mit Puderzucker bestreuen und servieren.",
+                    "Bild": "Tarta_Santiago.jpg"
 }
 
 Tequila_Mousse_L = {"frische Eigelb in Stück": 3,
@@ -1294,7 +1344,8 @@ Tequila_Mousse_L = {"frische Eigelb in Stück": 3,
                     "Zubereitung 5": "Den steif geschlagenen Rahm sorgfälltig darunterziehen.",
                     "Zubereitung 6": "Eiweiss in einem teiefen Teller verklopfen. Salz auf einen flachen Teller geben.",
                     "Zubereitung 7": "Den Rand von 4 Glasschälchen erst ins Eiweiss, dann sorgfälltig ins Salz tauchen.",
-                    "Zubereitung 8": "Mouse in Gläser verteilen. Zugedeckt ca. 4 Stunden kühl stellen."
+                    "Zubereitung 8": "Mouse in Gläser verteilen. Zugedeckt ca. 4 Stunden kühl stellen.",
+                    "Bild": "tequilla_mousse.jpg"
 }
 
 Tonkatsu_L = {"dünne Schweinsschnitzel": 4,
@@ -1311,7 +1362,8 @@ Tonkatsu_L = {"dünne Schweinsschnitzel": 4,
                     "Zubereitung 3": "Nochmals durchs Ei ziehen und im Panko wenden. In einer Bratpfanne reichlich Öl erhitzen.",
                     "Zubereitung 4": "Sofort unter die Eigelbmasse rühren und Kühl stellen, bis die Masse am Rand leich fest ist, glatt rühren.",
                     "Zubereitung 5": "Schnitzel darin bei mittlerer Hitze pro Seite 2–3 Minuten goldbraun braten. Fett auf Küchenpapier abtropfen lassen.",
-                    "Zubereitung 6": "Inzwischen Chinakohl in Streifen schneiden und mit Essig und Öl mischen. Mit den Schnitzeln servieren."
+                    "Zubereitung 6": "Inzwischen Chinakohl in Streifen schneiden und mit Essig und Öl mischen. Mit den Schnitzeln servieren.",
+                    "Bild": "bilder/Tonkatsu.jpg"
 }
 
 Onigiri_mit_Thunfisch_L = {"Sushi-Reis": 250,
@@ -1328,7 +1380,8 @@ Onigiri_mit_Thunfisch_L = {"Sushi-Reis": 250,
                     "Zubereitung 4": "Reis auf ein Blech verteilen. Essig darüberträufeln. Abkühlen lassen.",
                     "Zubereitung 5": "Thunfisch in einem Sieb abtropfen lassen. Mit Mayonnaise und Wasabi mischen. Pro Onigiri mit nassen Händen ca. 4 EL Sushi-Reis dünn auf eine Frischhaltefolie verteilen.",
                     "Zubereitung 6": "Etwas Thunfisch in die Mitte legen. Folie schliessen, damit die Thunfischmasse mit Reis ummantelt ist.",
-                    "Zubereitung 7": "Zu einer Kugel formen. Folie öffnen. Kugel vorsichtig zu einem Dreieck formen. Onigiri nach Belieben in Sesam tunken und mit Nori-Algenblatt dekorieren."
+                    "Zubereitung 7": "Zu einer Kugel formen. Folie öffnen. Kugel vorsichtig zu einem Dreieck formen. Onigiri nach Belieben in Sesam tunken und mit Nori-Algenblatt dekorieren.",
+                    "Bild": "onigiri_thunfisch.jpg"
 }
 
 Edamame_mit_Wasabi_Dip_L = {"Reisessig in EL": 3,
@@ -1339,7 +1392,8 @@ Edamame_mit_Wasabi_Dip_L = {"Reisessig in EL": 3,
                     "Salz prisen": "eine",
                     "tiefgekühlte Edamame": 500,
                     "Zubereitung 1": "Essig, Öl, Sesam und Wasabi gut verrühren. Koriander fein hacken, daruntermischen. Mit Fleur de sel abschmecken.",
-                    "Zubereitung 2": "Edamame in siedendem Wasser ca. 5 Minuten blanchieren. Mit kaltem Wasser abschrecken, gut abtropfen lassen. Edamame in Schalen verteilen. Mit Dip servieren."
+                    "Zubereitung 2": "Edamame in siedendem Wasser ca. 5 Minuten blanchieren. Mit kaltem Wasser abschrecken, gut abtropfen lassen. Edamame in Schalen verteilen. Mit Dip servieren.",
+                    "Bild": "edamame wasabi dip.png"
 }
 
 Yaki_Udon_mit_Tofu_und_Gemüse_L = {"Udonnudeln (dicke japanische Weizennudeln)": 300,
@@ -1360,7 +1414,8 @@ Yaki_Udon_mit_Tofu_und_Gemüse_L = {"Udonnudeln (dicke japanische Weizennudeln)"
                     "Zubereitung 3": "Öl in einer weiten beschichteten Bratpfanne oder im Wok erhitzen. Zwiebel, Karotten und Lauch darin anbraten.",
                     "Zubereitung 4": "Tofu beigeben und bei grosser Hitze kurz mitbraten. Hitze reduzieren. Nudeln beigeben und kurz mitbraten.",
                     "Zubereitung 5": "Mit Sojasauce, Mirin und Sesamöl abschmecken. Zwiebelgrün beigeben und mischen. Yaki Udon anrichten und mit Nori-Sesam-Mischung bestreuen.",
-                    "Zubereitung 6": "Misopaste mit wenig Dashi verrühren, zur Suppe geben. Wakame in die Bouillon geben. Suppe bei kleiner Hitze ca. 5 Minuten ziehen lassen. Frühlingszwiebeln in dünne Ringe schneiden. Suppe mit Sojasauce abschmecken. Frühlingszwiebeln dazugeben."
+                    "Zubereitung 6": "Misopaste mit wenig Dashi verrühren, zur Suppe geben. Wakame in die Bouillon geben. Suppe bei kleiner Hitze ca. 5 Minuten ziehen lassen. Frühlingszwiebeln in dünne Ringe schneiden. Suppe mit Sojasauce abschmecken. Frühlingszwiebeln dazugeben.",
+                    "Bild": "yaki udon tofu gemüse.png"
 }
 
 Gyudon_L = {"Sushi-Reis": 250,
@@ -1377,7 +1432,8 @@ Gyudon_L = {"Sushi-Reis": 250,
                     "Zubereitung 2": "Reis zugedeckt ca. 10 Minuten köcheln lassen. Herd ausschalten und den Reis zugedeckt ca. 15 Minuten auf der ausgeschalteten Herdplatte ziehen lassen.",
                     "Zubereitung 3": "Inzwischen Frühlingszwiebeln fein schneiden, beiseitestellen. Fleisch in Streifen schneiden. Im Öl scharf anbraten. Mit Essig und Sojasauce ablöschen.",
                     "Zubereitung 4": "Edamame dazugeben und kurz wärmen. Reis in Schüsseln verteilen. Fleisch mit Edamame darauf verteilen.",
-                    "Zubereitung 5": "Eier hartkochen, halbieren und darauflegen. Beiseitegestellte Zwiebeln und Sesamsamen darüberstreuen. Dazu passt Sriracha."
+                    "Zubereitung 5": "Eier hartkochen, halbieren und darauflegen. Beiseitegestellte Zwiebeln und Sesamsamen darüberstreuen. Dazu passt Sriracha.",
+                    "Bild": "Gyudon-beef-bowl-large.jpg"
 }
 
 Miso_Suppe_mit_Wakame_und_Tofu_L = {"getrocknete, geschnittene Wakame-Algen": 5,
@@ -1392,7 +1448,8 @@ Miso_Suppe_mit_Wakame_und_Tofu_L = {"getrocknete, geschnittene Wakame-Algen": 5,
                     "Zubereitung 2": "Am Zubereitungstag Wasser mit Kombu bei mittlerer Hitze aufkochen, entstehenden Schaum entfernen. Wenn das Wasser kocht, Algen entfernen. Bonitoflocken dazugeben, Flüssigkeit erneut aufkochen.",
                     "Zubereitung 3": "Wenn das Wasser kocht, Pfanne vom Herd nehmen. Fischflocken sollten nun auf den Pfannenboden gesunken sein.",
                     "Zubereitung 4": "Ein Sieb mit Haushaltspapier auslegen, dieses über eine zweite Pfanne halten. Flüssigkeit durch das Sieb giessen.",
-                    "Zubereitung 5": "Wakame in warmem Wasser ca. 10 Minuten einweichen. Abgiessen, abtropfen und leicht ausdrücken. Dashi erhitzen. Tofu in Würfel à ca. 1 cm schneiden, in die Suppe geben."
+                    "Zubereitung 5": "Wakame in warmem Wasser ca. 10 Minuten einweichen. Abgiessen, abtropfen und leicht ausdrücken. Dashi erhitzen. Tofu in Würfel à ca. 1 cm schneiden, in die Suppe geben.",
+                    "Bild": "miso-suppe.jpg"
 }
 
 Tempura_L = {"Crevetten Tail-on in Stück": 16,
@@ -1413,7 +1470,8 @@ Tempura_L = {"Crevetten Tail-on in Stück": 16,
                     "Zubereitung 4": "Okras an Spitze und Stielansatz anschneiden. Pilzstiele entfernen, Hüte dekorativ einritzen.",
                     "Zubereitung 5": "Für den Teig Ei mit Wasser verquirlen. Mehl dazusieben. Mit Mayonnaise und Sake rasch zu einem klumpigen Teig verrühren.",
                     "Zubereitung 6": "Öl in einer Fritteuse oder einer tiefen Pfanne auf 170 °C erhitzen. Süsskartoffel, Zwiebel, Okras, Pilze und Crevetten portionenweise in Maisstärke wenden, überschüssige Stärke abschütteln.",
-                    "Zubereitung 7": "Gemüse und Crevetten durch den Teig ziehen. Portionenweise ca. 3 Minuten frittieren. Kurz abtropfen lassen."
+                    "Zubereitung 7": "Gemüse und Crevetten durch den Teig ziehen. Portionenweise ca. 3 Minuten frittieren. Kurz abtropfen lassen.",
+                    "Bild": "Tempura.jpg"
 }
 
 Ichigo_Sando_L = {"Vollrahm in dl": 1.5,
@@ -1424,7 +1482,8 @@ Ichigo_Sando_L = {"Vollrahm in dl": 1.5,
                     "Zubereitung 2": "Anschliessend längs halbieren, jeweils wenig Rahm auf beide Teile verteilen. Erdbeeren auf die Hälfte der Brötchen verteilen, etwas zusätzlichen Rahm in die Zwischenräume verteilen.",
                     "Zubereitung 3": "Restliche Brötchen als Deckel aufsetzen. Brötchen eng in Klarsichtfolie einwickeln. Brötchen zwischen zwei Brettchen legen, mit einem Teller beschweren.",
                     "Zubereitung 4": "Im Tiefkühler 30–40 Minuten kühl stellen.",
-                    "Zubereitung 5": "Brötchen der Länge nach vorsichtig halbieren und sofort servieren."
+                    "Zubereitung 5": "Brötchen der Länge nach vorsichtig halbieren und sofort servieren.",
+                    "Bild": "ichigo-sando.jpg"
 }
 
 Matcha_Glace_L = {"Eigelb in Stück": 4,
@@ -1436,7 +1495,8 @@ Matcha_Glace_L = {"Eigelb in Stück": 4,
                     "Zubereitung 2": "Unter ständigem Rühren zur Ei-Zucker-Mischung giessen. Alles zurück in die Pfanne geben. Bei kleiner Hitze unter ständigem Rühren aufkochen, bis die Mischung bindet.",
                     "Zubereitung 3": "Durch ein feines Sieb in eine Schüssel giessen. Schüssel in Eiswasser stellen, bis sie kalt ist, Masse gelegentlich umrühren.",
                     "Zubereitung 4": "Masse in eine Metallschüssel füllen und zugedeckt ca. 4 Stunden gefrieren lassen.",
-                    "Zubereitung 5": "Nach ca. 1 Stunde, wenn die Masse anfängt am Rand fest zu werden, mit einem Handrührgerät kräftig rühren. Weiter gefrieren, dabei 2–3 Mal rühren."
+                    "Zubereitung 5": "Nach ca. 1 Stunde, wenn die Masse anfängt am Rand fest zu werden, mit einem Handrührgerät kräftig rühren. Weiter gefrieren, dabei 2–3 Mal rühren.",
+                    "Bild": "matcha glace.png"
 }
 
 Crispy_Rice_mit_Sushi_Topping_L  = {"Sushi-Reis": 250,
@@ -1455,7 +1515,8 @@ Crispy_Rice_mit_Sushi_Topping_L  = {"Sushi-Reis": 250,
                     "Zubereitung 4": "Reis auf das Blech verteilen und gut andrücken. Abkühlen lassen und im Kühlschrank mindestens 2 Stunden kühl stellen.",
                     "Zubereitung 5": "Reis auf ein Brett stürzen und in Rechtecke à 5 x 6 cm schneiden. Öl erhitzen, Reisstücke darin portionenweise beidseitig ca. 6 Minuten knusprig braten.",
                     "Zubereitung 6": "Inzwischen Avocado halbieren, Kern entfernen. Fruchtfleisch mit einem Löffel aus der Schale lösen und in dünne Scheiben schneiden. Mit Reisessig beträufeln.",
-                    "Zubereitung 7": "Lachs in dünne Tranchen schneiden. Nori mit einer Schere in Dreiecke schneiden. Reis-Rechtecke mit Mayonnaise bestreichen. Nach Belieben mit Avocado, Lachs, Nori, Ingwer und Kresse belegen."
+                    "Zubereitung 7": "Lachs in dünne Tranchen schneiden. Nori mit einer Schere in Dreiecke schneiden. Reis-Rechtecke mit Mayonnaise bestreichen. Nach Belieben mit Avocado, Lachs, Nori, Ingwer und Kresse belegen.",
+                    "Bild": "crispy rice mit sushi topping.png"
 }
 
 Japanische_Omelette_L  = {"Eier in Stück": 8,
@@ -1467,7 +1528,8 @@ Japanische_Omelette_L  = {"Eier in Stück": 8,
                     "Zubereitung 2": "Unter Schwenken der Pfanne dünn auslaufen lassen. Bei mittlerer Hitze beidseitig ca. 2 Minuten backen.",
                     "Zubereitung 3": "Zugedeckt warm halten. Auf dieselbe Weise restliche Omeletten backen.",
                     "Zubereitung 4": "Zum Fertigstellen je zwei Omeletten aufeinanderlegen und satt einrollen. In ca. 2 cm dicke Stücke schneiden.",
-                    "Zubereitung 5": "Schnittlauch fein darüber schneiden. Nach Belieben mit etwas Honig beträufeln."
+                    "Zubereitung 5": "Schnittlauch fein darüber schneiden. Nach Belieben mit etwas Honig beträufeln.",
+                    "Bild": "japanische-omelette.jpg"
 }
 
 California_Rolls_L  = {"Sushi-Reis": 300,
@@ -1495,7 +1557,8 @@ California_Rolls_L  = {"Sushi-Reis": 300,
                     "Zubereitung 8": "Auf eine Bambusmatte wenden, so dass die Folie unten ist. Gurken- und Avocadostreifen längs in einem Streifen auf die Algen-Blätter legen.",
                     "Zubereitung 9": "Idealerweise an der unteren Seite, wo der Reis unter dem Blatt beginnt. Surimi längs halbieren, längs auf das Gemüse legen und mit Mayonnaise bestreichen.",
                     "Zubereitung 10": "Mit Hilfe der Bambusmatte von der Seite des freigelassenen Blattteils den Reis samt Algen-Blatt und Füllung satt einrollen, dabei die Frischhaltefolie entfernen. Enden der Sushi-Rolle andrücken.",
-                    "Zubereitung 11": "Rollen im Sesam wenden, ca. 30 Minuten kühl stellen. Rollen mit einem scharfen, nassen Messer in je ca. 8 Stücke schneiden. Mit Sojasauce, Wasabi und Ingwer servieren."
+                    "Zubereitung 11": "Rollen im Sesam wenden, ca. 30 Minuten kühl stellen. Rollen mit einem scharfen, nassen Messer in je ca. 8 Stücke schneiden. Mit Sojasauce, Wasabi und Ingwer servieren.",
+                    "Bild": "california-rolls .png"
 }
 
 Olivenöl_Orangen_Gugelhopf_L = {"Orangen in Stück": 2,
@@ -1513,7 +1576,9 @@ Olivenöl_Orangen_Gugelhopf_L = {"Orangen in Stück": 2,
                     "Zubereitung 2": "Orangenschalen fein abreiben. Orangen auspressen. Saft, Schale, Öl, Eier, Joghurt und Zucker gut verrühren.",
                     "Zubereitung 3": "Mehl, Mohn, Salz und Backpulver dazugeben. Alles zu einem cremigen Teig rühren.",
                     "Zubereitung 4": "Teig in die Form füllen. In der Ofenmitte ca. 40 Minuten backen. Nadelprobe machen: Dazu ein Holzspiesschen in die Mitte des Kuchens stechen; bleibt kein Teig kleben, ist der Kuchen fertig gebacken.",
-                    "Zubereitung 5": "Herausnehmen und abkühlen lassen. Aus der Form stürzen und auskühlen lassen. Rahm steif schlagen. Kuchen mit Rahm anrichten. Mit Honig beträufeln und servieren."
+                    "Zubereitung 5": "Herausnehmen und abkühlen lassen. Aus der Form stürzen und auskühlen lassen. Rahm steif schlagen. Kuchen mit Rahm anrichten. Mit Honig beträufeln und servieren.",
+                    "Bild": "olivenöl-orangen-gugelhopf.png"
+              
 }
 
 Klassischer_Griechischer_Salat_L = {"Tomaten in Stück": 3,
@@ -1532,7 +1597,8 @@ Klassischer_Griechischer_Salat_L = {"Tomaten in Stück": 3,
                     "Zubereitung 2": "Gurke schälen, längs halbieren und in Würfel schneiden. Zwiebeln schälen, halbieren und in Streifen schneiden.",
                     "Zubereitung 3": "Feta in ca. 1 cm grosse Würfel schneiden. Oregano hacken.",
                     "Zubereitung 4": "Tomaten, Peperoni, Gurke, Zwiebeln, Feta, Oregano, Oliven, Öl und Essig in eine Schüssel geben.",
-                    "Zubereitung 5": "Alles mischen und mit Salz und Pfeffer abschmecken."
+                    "Zubereitung 5": "Alles mischen und mit Salz und Pfeffer abschmecken.",
+                    "Bild": "klassischer griechischer salat.png"
 }
 
 Bifteki_L = {"Feta": 200,
@@ -1550,7 +1616,8 @@ Bifteki_L = {"Feta": 200,
                     "Zubereitung 3": "Knoblauch dazupressen. Mit Salz und Pfeffer würzen und gut vermischen. Hackfleischmasse in 16 Portionen teilen.",
                     "Zubereitung 4": "Jede Portion flach drücken, mit je einem Würfel Feta belegen, zu Bällchen formen.",
                     "Zubereitung 5": "Das heisse Blech mit Backpapier belegen, Bällchen daraufgeben. Öl darüberträufeln.",
-                    "Zubereitung 6": "Hackbällchen in der unteren Ofenhälfte ca. 20 Min. backen. Nach der Hälfte der Backzeit wenden."
+                    "Zubereitung 6": "Hackbällchen in der unteren Ofenhälfte ca. 20 Min. backen. Nach der Hälfte der Backzeit wenden.",
+                    "Bild": "bifteki.jpg"
 }
 
 Hülsenfrüchtesalat_mit_Granatapfel_L = {"getrocknete Kichererbsen": 200,
@@ -1570,7 +1637,8 @@ Hülsenfrüchtesalat_mit_Granatapfel_L = {"getrocknete Kichererbsen": 200,
                     "Zubereitung 2": "Kichererbsen und Bohnen separat ca. 55 Minuten weich garen. Inzwischen Linsen ca. 25 Minuten weichkochen.",
                     "Zubereitung 3": "Alle abgiessen und abtropfen lassen. Bouillon aufkochen. Bulgur einstreuen und zugedeckt ca. 20 Minuten auf kleinster Hitze quellen lassen.",
                     "Zubereitung 4": "Bulgur mit einer Gabel auflockern. Dill und Petersilie hacken. Frühlingszwiebeln in Ringe schneiden. Mit den Kräutern, Kichererbsen, Bohnen, Linsen und Bulgur mischen.",
-                    "Zubereitung 5": "Olivenöl und Essig zugeben. Mit Fleur de sel und Pfeffer abschmecken. Hülsenfrüchtesalat mit Granatapfelkernen servieren."
+                    "Zubereitung 5": "Olivenöl und Essig zugeben. Mit Fleur de sel und Pfeffer abschmecken. Hülsenfrüchtesalat mit Granatapfelkernen servieren.",
+                    "Bild": "huelsenfruechtesalat-mit-granatapfel.jpg"
 }
 
 Kichererbsenbällchen_mit_Aprikosen_L = {"getrocknete Kichererbsen": 120,
@@ -1590,7 +1658,8 @@ Kichererbsenbällchen_mit_Aprikosen_L = {"getrocknete Kichererbsen": 120,
                     "Zubereitung 4": "Ei dazugeben. Mit dem Stabmixer fein pürieren. Peperoncino entkernen und fein schneiden. Zur Kichererbsenmasse geben.",
                     "Zubereitung 5": "Aprikosen in kleine Stücke schneiden, mit den Pistazien und dem Paniermehl zur Masse mischen. Mit Kreuzkümmel, Salz und Pfeffer abschmecken.",
                     "Zubereitung 6": "Aus der Masse baumnussgrosse Bällchen formen. Im Erdnussöl bei 160 °C schwimmend backen, bis sie Farbe annehmen.",
-                    "Zubereitung 7": "Nach Belieben warm oder kalt servieren."
+                    "Zubereitung 7": "Nach Belieben warm oder kalt servieren.",
+                    "Bild":"kichererbsenbaellchen-mit-aprikosen.jpg" 
 }
 
 Gefuellte_Tomaten_mit_Feta_L = {"Basmatireis": 125,
@@ -1608,7 +1677,8 @@ Gefuellte_Tomaten_mit_Feta_L = {"Basmatireis": 125,
                     "Zubereitung 3": "Zwiebeln, Knoblauch und Kräuter hacken. Zwiebeln und Knoblauch im Öl andünsten. Tomatenpüree kurz mitdünsten.",
                     "Zubereitung 4": "Fruchtfleisch und gekochten Reis beigeben und alles ca. 5 Minuten fertig garen. Feta zerbröseln. Mit den Kräutern daruntermischen. Mit Salz und Pfeffer abschmecken.",
                     "Zubereitung 5": "Backofen auf 200 °C Umluft vorheizen. Tomaten mit Reismischung füllen und in einer ofenfesten Form stellen. In der Ofenmitte ca. 20 Minuten backen.",
-                    "Zubereitung 6": "Nach 10 Minuten der Backzeit die Deckel auf die Tomaten setzen und mitbacken."
+                    "Zubereitung 6": "Nach 10 Minuten der Backzeit die Deckel auf die Tomaten setzen und mitbacken.",
+                    "Bild": "gefuellte_tomaten_feta.jpeg"
 }
 
 
@@ -1666,7 +1736,6 @@ Kochbuch = {"Nudeln": Nudeln_L,
             "Kokosnuss-Reispudding": Kokosnuss_Reispudding,
             "Ananas Upside-Down Cake": Ananas_Cake_L,
             "Kimchi": Kimchi_L,
-            "Japchae (Glasnudelsalat)": Japchae_L,
             "Pajeon (Frühlingszwiebel-Pfannkuchen)": Pajeon_L,
             "Bibimbap": Bibimbap_L,
             "Japchae": Japchae_L,
@@ -1705,6 +1774,5 @@ Kochbuch = {"Nudeln": Nudeln_L,
 
 #Speiseliste nicht erweitern
 Speise_L = ["Vorspeise", "Hauptspeise", "Nachspeise"]
-
 
 
