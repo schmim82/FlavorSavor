@@ -234,7 +234,7 @@ Miso_Ramen_Nudelsuppe_L= {"Bild":"miso_ramen_nudelsuppe.jpg",
                           "Zubereitung 7": "Die Suppe in Schüsseln portionieren und mit den vorbereiteten Zutaten garnieren, wie Frühlingszwiebeln, Koriander, Lauch und Nori-Algenblättern."
 }
 
-Moussaka_L ={"Bild":"moussaka.jpg",
+Moussaka_L ={"Bild":"moussaka.jpeg",
              "Auberginen in Stück": 1,
              "Kartoffeln in Scheiben": 3,
              "Hackfleisch": 500,
