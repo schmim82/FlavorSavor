@@ -11,6 +11,7 @@ from seiten import seite_1 as s_1
 from seiten import seite_2 as s_2
 from seiten import seite_3 as s_3
 from seiten import seite_4 as s_4
+from seiten import seite_5 as s_5
 
 
 st.set_page_config(page_title="FlavorSavor")
@@ -121,7 +122,7 @@ def main():
 
 
         #replace the code bellow with your own code or switch to another page
-        seiten = ("Rezept Auswahl","Random Rezept","Einkaufsliste","Favoriten" )
+        seiten = ("Home Page","Rezept Auswahl","Random Rezept","Einkaufsliste","Favoriten" )
         seitenauswahl = st.sidebar.selectbox("Wähle die Seite aus", seiten)
         if seitenauswahl == "Rezept Auswahl":
             s_1.seite_1()
@@ -134,6 +135,9 @@ def main():
 
         elif seitenauswahl == "Favoriten":
             s_4.seite_4()
+
+        elif seitenauswahl == "Home Page":
+            s_5.seite_5()
 
 
 
