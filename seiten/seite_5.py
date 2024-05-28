@@ -11,5 +11,5 @@ def seite_5():
   st.sidebar.subheader("Entdecke die Welt der Kulinarik")
 
   st.title("Willkommen bei Flavorsavor")
-  st.subtitle("Entdecke die Kunst der Kulinarik")
+  st.header("Entdecke die Kunst der Kulinarik")
   
