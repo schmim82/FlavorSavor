@@ -69,7 +69,7 @@ def seite_1():
         fa.rezepte_hinzufügen(user_name, choose_recipe, personenanzahl)
 
 
-    favoriten_button = st.sidebar.button(":two_hearts:")
+    favoriten_button = st.sidebar.button(":hearts:")
 
     if favoriten_button:
 
