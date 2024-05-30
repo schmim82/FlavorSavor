@@ -34,6 +34,10 @@ def seite_3():
     # Nur ausgeben, wenn `random_rezept` gesetzt ist
     if st.session_state.random_rezept:
         fa.zutaten_ausgabe(st.session_state.random_rezept, zd.Kochbuch, personenanzahl)
+        st.session_state.random_rezept = None
+
+    if input in rez_liste:
+        fa.zutaten_ausgabe(input, zd.Kochbuch, personenanzahl)
 
 
     DATA_FILE = "test.csv"
