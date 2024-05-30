@@ -25,8 +25,7 @@ def seite_3():
     # Überprüfen, ob `random_rezept` im Session State ist, sonst initialisieren
     if 'random_rezept' not in st.session_state:
         st.session_state.random_rezept = None
-        if input in rez_liste:
-            fa.zutaten_ausgabe(input, zd.Kochbuch, personenanzahl)
+
 
     if random_checkbox:
         st.session_state.random_rezept = fa.random_rez(Rezepte_dataframe)
