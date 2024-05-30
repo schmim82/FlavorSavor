@@ -13,6 +13,9 @@ def seite_3():
     rez_liste = Rezepte_dataframe["Rezepte"].tolist()
     rez_liste.sort()
     rez_liste.insert(0,"--")
+
+    if 'selected_rezept' not in st.session_state:
+        st.session_state.selected_rezept = "--"
     
 
     input = st.sidebar.selectbox("Rezept suchen", rez_liste )
@@ -30,7 +33,6 @@ def seite_3():
 
 
     if random_checkbox:
-        input == "--"
         st.session_state.random_rezept = fa.random_rez(Rezepte_dataframe)
 
     # Nur ausgeben, wenn `random_rezept` gesetzt ist
