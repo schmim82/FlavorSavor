@@ -16,7 +16,7 @@ def seite_3():
     
 
     input = st.sidebar.selectbox("Rezept suchen", rez_liste )
-    anzeigen_box = st.sidebar.button("Rezept anzeigen")
+    
 
     personenanzahl = st.sidebar.slider("Wähle die Personenanzahl aus", 1, 10, 2)
 
