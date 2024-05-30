@@ -11,6 +11,7 @@ def seite_3():
 
     Rezepte_dataframe = csv_reader("Rezepte_dataframe.csv")
     rez_liste = Rezepte_dataframe["Rezepte"].tolist()
+    rez_liste.sort()
     rez_liste.insert(0,"--")
     
 
