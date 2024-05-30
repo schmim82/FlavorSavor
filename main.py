@@ -104,6 +104,8 @@ def main():
     init_github() # Initialize the GithubContents object
     init_credentials() # Loads the credentials from the Github data repository
 
+    fa.logo_anzeigen("logo.jpeg", "Ja")
+    
     if 'authentication' not in st.session_state:
         st.session_state['authentication'] = False
 
