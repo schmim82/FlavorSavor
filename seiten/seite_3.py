@@ -35,8 +35,12 @@ def seite_3():
         fa.zutaten_ausgabe(st.session_state.random_rezept, zd.Kochbuch, personenanzahl)
         st.session_state.random_rezept = None
 
-    if input in rez_liste:
-        fa.zutaten_ausgabe(input, zd.Kochbuch, personenanzahl)
+    try:
+        if input in rez_liste:
+            fa.zutaten_ausgabe(input, zd.Kochbuch, personenanzahl)
+
+    except KeyError:
+        st.subheader("Bitte suchen Sie ein Rezept oder lassen ein zufälliges Generieren")
 
 
     DATA_FILE = "test.csv"
