@@ -249,14 +249,15 @@ def einkaufsliste_erstellen(einkaufsliste, Kochbuch):
         for key in dictionary:
             words = key.split()
             if words[0] != "Zubereitung":
-                if key not in leere_dic:
-                    if isinstance(dictionary[key], int) or isinstance(dictionary[key], float):
-                        leere_dic[key] = dictionary[key] * anzahl
+                if words[0] != "Bild":
+                    if key not in leere_dic:
+                        if isinstance(dictionary[key], int) or isinstance(dictionary[key], float):
+                            leere_dic[key] = dictionary[key] * anzahl
+                        else:
+                            leere_dic[key] = dictionary[key]
                     else:
-                        leere_dic[key] = dictionary[key]
-                else:
-                    if isinstance(dictionary[key], int) or isinstance(dictionary[key], float):
-                        leere_dic[key] += dictionary[key] * anzahl
+                        if isinstance(dictionary[key], int) or isinstance(dictionary[key], float):
+                            leere_dic[key] += dictionary[key] * anzahl
 
     for key in leere_dic:
         if isinstance(leere_dic[key], int) or isinstance(leere_dic[key], float):
