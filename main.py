@@ -104,10 +104,11 @@ def main():
     init_github() # Initialize the GithubContents object
     init_credentials() # Loads the credentials from the Github data repository
 
-    fa.logo_anzeigen("logo.png", "Ja")
+
     
     if 'authentication' not in st.session_state:
         st.session_state['authentication'] = False
+        fa.logo_anzeigen("logo.png", "Ja")
 
     if not st.session_state['authentication']:
         options = st.sidebar.selectbox("Select a page", ["Login", "Register"])
