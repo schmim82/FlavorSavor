@@ -30,6 +30,7 @@ def seite_3():
 
 
     if random_checkbox:
+        input == "--"
         st.session_state.random_rezept = fa.random_rez(Rezepte_dataframe)
 
     # Nur ausgeben, wenn `random_rezept` gesetzt ist
