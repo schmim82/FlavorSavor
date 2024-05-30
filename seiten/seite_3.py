@@ -55,8 +55,11 @@ def seite_3():
 
         user_name = fa.get_current_username()
 
+        if random_checkbox:
+            fa.rezepte_hinzufügen(user_name, st.session_state.random_rezept, personenanzahl)
 
-        fa.rezepte_hinzufügen(user_name, st.session_state.random_rezept, personenanzahl)
+        else:
+            fa.rezepte_hinzufügen(user_name, input, personenanzahl)
 
     favoriten_button = st.sidebar.button(":hearts: Favorit")
 
