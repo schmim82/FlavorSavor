@@ -10,8 +10,11 @@ def seite_3():
         return pd.read_csv(csv, sep=";")
 
     Rezepte_dataframe = csv_reader("Rezepte_dataframe.csv")
+    rez_liste = Rezepte_dataframe["Rezepte"].tolist()
+    rez_liste.insert(0,"--")
+    
 
-    input = st.sidebar.text_input("Rezept suchen")
+    input = st.sidebar.selectbox("Rezept suchen", rez_liste )
 
     personenanzahl = st.sidebar.slider("Wähle die Personenanzahl aus", 1, 10, 2)
 
