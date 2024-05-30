@@ -45,6 +45,15 @@ def bild_anzeigen(bild, bilder_liste):
     else:
         st.markdown("")
 
+def logo_anzeigen(logo, sidebar):
+    image_dir = os.path.join(os.path.dirname(__file__), "logo")
+    if sidebar == "Ja":
+        st.sidebar.image(os.path.join(image_dir,bild), use_column_width = True)
+
+    else:
+        st.image(os.path.join(image_dir,bild),use_column_width = True)
+    
+
 
 
 
