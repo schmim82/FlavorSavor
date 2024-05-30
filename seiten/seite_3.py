@@ -32,7 +32,7 @@ def seite_3():
     
     fa.init_rez()
 
-    Liste_button = st.sidebar.button("Zur Liste hinzufügen")
+    Liste_button = st.sidebar.button("Zur Einkaufsliste hinzufügen")
     
     if Liste_button:
 
