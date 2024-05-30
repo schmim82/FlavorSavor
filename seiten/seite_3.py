@@ -20,6 +20,9 @@ def seite_3():
 
     random_checkbox = st.sidebar.button("Random Rezept")
 
+    if input in rez_liste:
+        fa.zutaten_ausgabe(input, zd.Kochbuch, personenanzahl)
+
     # Überprüfen, ob `random_rezept` im Session State ist, sonst initialisieren
     if 'random_rezept' not in st.session_state:
         st.session_state.random_rezept = None
