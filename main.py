@@ -108,9 +108,10 @@ def main():
     
     if 'authentication' not in st.session_state:
         st.session_state['authentication'] = False
-        fa.logo_anzeigen("logo.png", "Ja")
+        
 
     if not st.session_state['authentication']:
+        fa.logo_anzeigen("logo.png", "Ja")
         options = st.sidebar.selectbox("Select a page", ["Login", "Register"])
         if options == "Login":
             login_page()
