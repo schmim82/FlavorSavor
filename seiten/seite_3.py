@@ -11,7 +11,7 @@ def seite_3():
 
     Rezepte_dataframe = csv_reader("Rezepte_dataframe.csv")
 
-    input = st.sidebar.input("Rezept suchen")
+    input = st.sidebar.text_input("Rezept suchen")
 
     personenanzahl = st.sidebar.slider("Wähle die Personenanzahl aus", 1, 10, 2)
 
