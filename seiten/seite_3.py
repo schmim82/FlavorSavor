@@ -16,6 +16,7 @@ def seite_3():
     
 
     input = st.sidebar.selectbox("Rezept suchen", rez_liste )
+    anzeigen_box = st.sidebar.button("Rezept anzeigen")
 
     personenanzahl = st.sidebar.slider("Wähle die Personenanzahl aus", 1, 10, 2)
 
@@ -35,14 +36,14 @@ def seite_3():
     if st.session_state.random_rezept:
         fa.zutaten_ausgabe(st.session_state.random_rezept, zd.Kochbuch, personenanzahl)
 
+    if input != "--":
+        try:
+            if input in rez_liste:
+                st.session_state.random_rezept = None
+                fa.zutaten_ausgabe(input, zd.Kochbuch, personenanzahl)
 
-    try:
-        if input in rez_liste:
-            st.session_state.random_rezept = None
-            fa.zutaten_ausgabe(input, zd.Kochbuch, personenanzahl)
-
-    except KeyError:
-        st.subheader("Bitte suchen Sie ein Rezept oder lassen ein zufälliges Generieren")
+        except KeyError:
+            st.subheader("Bitte suchen Sie ein Rezept oder lassen ein zufälliges Generieren")
 
 
     DATA_FILE = "test.csv"
