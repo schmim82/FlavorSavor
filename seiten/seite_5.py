@@ -20,6 +20,7 @@ def seite_5():
   st.markdown("- Favoriten: Speichere deine Lieblingsrezepte für schnellen Zugriff.")
   st.markdown("- Random Rezept: Lass dich inspirieren, wenn du nicht weißt, was du kochen sollst.")
   st.markdown("Mit FlavorSavor wird Kochen zu einem kulinarischen Erlebnis. Viel Spaß beim Entdecken und Genießen!")
+  fa.logo_anzeigen("logo.png", "Ja")
 
 
 
