@@ -66,6 +66,6 @@ Person 3: Keine Kritik geäussert.<br />
 
 ## Fazit:
 
-Die Hypothese wurde bestätigt bestätigt.
+Die Hypothese wurde bestätigt.
 <br />
 Der Nutzertest war erfolgreich und die App würden von allen Testnutzer als Intressant und Nutzenzwerde bezeichnet.
