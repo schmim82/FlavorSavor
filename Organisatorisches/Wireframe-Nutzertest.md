@@ -6,7 +6,7 @@ Die App ist selbst erklärend und verständlich.
 Der Nutzertest wurde mittels Bilder über das Ipad gemacht und anschliessen die Bemerkungen vermerkt.
 
  <br />
-<img src="FlavorSavor/Organisatorisch/Wireframes/Bild_Rezept_suchen.png" alt="Rezept suchen" width="700"/> 
+<img src="Wireframes/Bild_Rezept_suchen.png" alt="Rezept suchen" width="700"/> 
 
 Die Frage kamm auf ob Vegane auch als Kategorie angegeben werden soll?
 
